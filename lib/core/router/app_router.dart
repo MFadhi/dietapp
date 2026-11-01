@@ -2,7 +2,10 @@ import 'package:flutter/material.dart';
 import 'package:flutter_riverpod/flutter_riverpod.dart';
 import 'package:go_router/go_router.dart';
 
+import '../../domain/entities/meal_type.dart';
 import '../../domain/entities/user_profile.dart';
+import '../../features/foods/presentation/food_detail_screen.dart';
+import '../../features/foods/presentation/food_search_screen.dart';
 import '../../features/home/presentation/home_screen.dart';
 import '../../features/onboarding/presentation/onboarding_screen.dart';
 import '../../features/onboarding/presentation/splash_screen.dart';
@@ -44,6 +47,25 @@ final routerProvider = Provider<GoRouter>((ref) {
     routes: [
       GoRoute(path: '/splash', builder: (_, __) => const SplashScreen()),
       GoRoute(path: '/onboarding', builder: (_, __) => const OnboardingScreen()),
+      GoRoute(
+        path: '/foods',
+        parentNavigatorKey: rootNavigatorKey, // sits above bottom navigation
+        builder: (context, state) {
+          final mealStr = state.uri.queryParameters['meal'];
+          final meal = MealType.tryParse(mealStr);
+          return FoodSearchScreen(initialMeal: meal);
+        },
+      ),
+      GoRoute(
+        path: '/foods/:id',
+        parentNavigatorKey: rootNavigatorKey, // sits above bottom navigation
+        builder: (context, state) {
+          final id = int.tryParse(state.pathParameters['id'] ?? '') ?? 0;
+          final mealStr = state.uri.queryParameters['meal'];
+          final meal = MealType.tryParse(mealStr);
+          return FoodDetailScreen(foodId: id, initialMeal: meal);
+        },
+      ),
       StatefulShellRoute.indexedStack(
         builder: (context, state, shell) => HomeShell(navigationShell: shell),
         branches: [

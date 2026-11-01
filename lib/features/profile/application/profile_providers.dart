@@ -6,6 +6,7 @@ import '../../../domain/entities/nutrition_targets.dart';
 import '../../../domain/entities/user_profile.dart';
 import '../../../domain/repositories/profile_repository.dart';
 import '../../../domain/services/target_calculator.dart';
+import '../../foods/application/food_providers.dart';
 
 final secureStorageProvider = Provider<FlutterSecureStorage>(
   (ref) => const FlutterSecureStorage(
@@ -29,9 +30,10 @@ class ProfileController extends AsyncNotifier<UserProfile?> {
     state = AsyncData(profile);
   }
 
-  /// Deletes the stored profile. TODO(Phase 7): also wipe the database, labs and logs.
+  /// Deletes the stored profile and clears the food log database.
   Future<void> clear() async {
     await ref.read(profileRepositoryProvider).clear();
+    await ref.read(foodLogRepositoryProvider).deleteAll();
     state = const AsyncData(null);
   }
 }

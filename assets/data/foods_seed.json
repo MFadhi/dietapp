@@ -1,0 +1,4490 @@
+{
+  "disclaimer": "SAMPLE DATA only. Approximate nutritional values for demonstration. Values should be verified against the Indian Food Composition Tables (IFCT 2017) or professional medical/dietetic databases.",
+  "foods": [
+    {
+      "key": "roti_chapati",
+      "nameEn": "Roti (Chapati)",
+      "nameHi": "रोटी / चपाती",
+      "nameKn": "ರೊಟ್ಟಿ / ಚಪಾತಿ",
+      "aliases": [
+        "chapathi",
+        "phulka",
+        "roti",
+        "wheat flatbread",
+        "chapati"
+      ],
+      "category": "breads",
+      "diet": "vegan",
+      "nutrientsPer100g": {
+        "kcal": 283.0,
+        "protein": 9.0,
+        "carbs": 55.0,
+        "fat": 3.0,
+        "fibre": 10.0
+      },
+      "allergens": [
+        "gluten"
+      ],
+      "tags": [
+        "high_fibre",
+        "staple",
+        "warming"
+      ],
+      "portions": [
+        {
+          "label": "1 roti",
+          "grams": 40.0,
+          "isDefault": true
+        },
+        {
+          "label": "1 large roti",
+          "grams": 55.0,
+          "isDefault": false
+        }
+      ]
+    },
+    {
+      "key": "paratha_plain",
+      "nameEn": "Plain Paratha",
+      "nameHi": "सादा पराठा",
+      "nameKn": "ಸಾದಾ ಪರೋಟ",
+      "aliases": [
+        "paratha",
+        "parotha",
+        "tawa paratha"
+      ],
+      "category": "breads",
+      "diet": "veg",
+      "nutrientsPer100g": {
+        "kcal": 337.0,
+        "protein": 7.0,
+        "carbs": 48.0,
+        "fat": 13.0,
+        "fibre": 6.0
+      },
+      "allergens": [
+        "gluten",
+        "milk"
+      ],
+      "tags": [
+        "staple",
+        "warming"
+      ],
+      "portions": [
+        {
+          "label": "1 paratha",
+          "grams": 60.0,
+          "isDefault": true
+        },
+        {
+          "label": "1 large paratha",
+          "grams": 80.0,
+          "isDefault": false
+        }
+      ]
+    },
+    {
+      "key": "aloo_paratha",
+      "nameEn": "Aloo Paratha",
+      "nameHi": "आलू पराठा",
+      "nameKn": "ಆಲೂ ಪರೋಟ",
+      "aliases": [
+        "potato paratha",
+        "alu paratha",
+        "aloo parotta"
+      ],
+      "category": "breads",
+      "diet": "veg",
+      "nutrientsPer100g": {
+        "kcal": 255.0,
+        "protein": 5.5,
+        "carbs": 38.0,
+        "fat": 9.0,
+        "fibre": 4.5
+      },
+      "allergens": [
+        "gluten",
+        "milk"
+      ],
+      "tags": [
+        "comfort",
+        "warming"
+      ],
+      "portions": [
+        {
+          "label": "1 paratha",
+          "grams": 100.0,
+          "isDefault": true
+        },
+        {
+          "label": "1 small paratha",
+          "grams": 75.0,
+          "isDefault": false
+        }
+      ]
+    },
+    {
+      "key": "poori",
+      "nameEn": "Poori (Puri)",
+      "nameHi": "पूरी",
+      "nameKn": "ಪೂರಿ",
+      "aliases": [
+        "puri",
+        "fried bread",
+        "deep fried roti"
+      ],
+      "category": "breads",
+      "diet": "vegan",
+      "nutrientsPer100g": {
+        "kcal": 392.0,
+        "protein": 7.0,
+        "carbs": 46.0,
+        "fat": 20.0,
+        "fibre": 5.0
+      },
+      "allergens": [
+        "gluten"
+      ],
+      "tags": [
+        "fried",
+        "warming"
+      ],
+      "portions": [
+        {
+          "label": "1 poori",
+          "grams": 30.0,
+          "isDefault": true
+        },
+        {
+          "label": "2 pooris",
+          "grams": 60.0,
+          "isDefault": false
+        }
+      ]
+    },
+    {
+      "key": "naan_plain",
+      "nameEn": "Plain Naan",
+      "nameHi": "नान",
+      "nameKn": "ನಾನ್",
+      "aliases": [
+        "tandoori naan",
+        "tandoor naan"
+      ],
+      "category": "breads",
+      "diet": "veg",
+      "nutrientsPer100g": {
+        "kcal": 296.0,
+        "protein": 8.5,
+        "carbs": 52.0,
+        "fat": 6.0,
+        "fibre": 3.0
+      },
+      "allergens": [
+        "gluten",
+        "milk"
+      ],
+      "tags": [
+        "restaurant",
+        "comfort"
+      ],
+      "portions": [
+        {
+          "label": "1 naan",
+          "grams": 90.0,
+          "isDefault": true
+        },
+        {
+          "label": "1/2 naan",
+          "grams": 45.0,
+          "isDefault": false
+        }
+      ]
+    },
+    {
+      "key": "garlic_naan",
+      "nameEn": "Butter Garlic Naan",
+      "nameHi": "बटर गार्लिक नान",
+      "nameKn": "ಬೆಣ್ಣೆ ಬೆಳ್ಳುಳ್ಳಿ ನಾನ್",
+      "aliases": [
+        "garlic naan",
+        "butter naan"
+      ],
+      "category": "breads",
+      "diet": "veg",
+      "nutrientsPer100g": {
+        "kcal": 331.0,
+        "protein": 8.0,
+        "carbs": 50.0,
+        "fat": 11.0,
+        "fibre": 3.0
+      },
+      "allergens": [
+        "gluten",
+        "milk"
+      ],
+      "tags": [
+        "restaurant",
+        "comfort"
+      ],
+      "portions": [
+        {
+          "label": "1 naan",
+          "grams": 100.0,
+          "isDefault": true
+        }
+      ]
+    },
+    {
+      "key": "missi_roti",
+      "nameEn": "Missi Roti",
+      "nameHi": "मिस्सी रोटी",
+      "nameKn": "ಮಿಸ್ಸಿ ರೊಟ್ಟಿ",
+      "aliases": [
+        "besan roti",
+        "chana atta roti"
+      ],
+      "category": "breads",
+      "diet": "vegan",
+      "nutrientsPer100g": {
+        "kcal": 293.0,
+        "protein": 12.0,
+        "carbs": 50.0,
+        "fat": 5.0,
+        "fibre": 9.0
+      },
+      "allergens": [
+        "gluten"
+      ],
+      "tags": [
+        "high_protein",
+        "high_fibre"
+      ],
+      "portions": [
+        {
+          "label": "1 roti",
+          "grams": 45.0,
+          "isDefault": true
+        }
+      ]
+    },
+    {
+      "key": "jowar_roti",
+      "nameEn": "Jowar Roti (Sorghum)",
+      "nameHi": "ज्वार की रोटी",
+      "nameKn": "ಜೋಳದ ರೊಟ್ಟಿ",
+      "aliases": [
+        "jolada rotti",
+        "jowar bhakri",
+        "sorghum flatbread"
+      ],
+      "category": "breads",
+      "diet": "vegan",
+      "nutrientsPer100g": {
+        "kcal": 300.5,
+        "protein": 7.5,
+        "carbs": 62.0,
+        "fat": 2.5,
+        "fibre": 10.0
+      },
+      "allergens": [],
+      "tags": [
+        "high_fibre",
+        "gluten_free",
+        "cooling"
+      ],
+      "portions": [
+        {
+          "label": "1 roti",
+          "grams": 50.0,
+          "isDefault": true
+        }
+      ]
+    },
+    {
+      "key": "ragi_roti",
+      "nameEn": "Ragi Roti",
+      "nameHi": "रागी रोटी",
+      "nameKn": "ರಾಗಿ ರೊಟ್ಟಿ",
+      "aliases": [
+        "finger millet roti",
+        "nachni roti",
+        "ragi rotti"
+      ],
+      "category": "breads",
+      "diet": "vegan",
+      "nutrientsPer100g": {
+        "kcal": 300.0,
+        "protein": 6.5,
+        "carbs": 64.0,
+        "fat": 2.0,
+        "fibre": 11.5
+      },
+      "allergens": [],
+      "tags": [
+        "high_fibre",
+        "calcium_rich",
+        "cooling"
+      ],
+      "portions": [
+        {
+          "label": "1 roti",
+          "grams": 60.0,
+          "isDefault": true
+        }
+      ]
+    },
+    {
+      "key": "bhatura",
+      "nameEn": "Bhatura",
+      "nameHi": "भटूरा",
+      "nameKn": "ಭಟೂರ",
+      "aliases": [
+        "chole bhature bread",
+        "bhatoora"
+      ],
+      "category": "breads",
+      "diet": "veg",
+      "nutrientsPer100g": {
+        "kcal": 370.0,
+        "protein": 7.0,
+        "carbs": 45.0,
+        "fat": 18.0,
+        "fibre": 2.0
+      },
+      "allergens": [
+        "gluten",
+        "milk"
+      ],
+      "tags": [
+        "fried",
+        "restaurant",
+        "comfort"
+      ],
+      "portions": [
+        {
+          "label": "1 bhatura",
+          "grams": 80.0,
+          "isDefault": true
+        }
+      ]
+    },
+    {
+      "key": "steamed_white_rice",
+      "nameEn": "Steamed White Rice",
+      "nameHi": "उबले चावल",
+      "nameKn": "ಕುದಿಸಿದ ಅನ್ನ",
+      "aliases": [
+        "plain rice",
+        "boiled rice",
+        "bhat",
+        "anna",
+        "chawal"
+      ],
+      "category": "rice and grains",
+      "diet": "vegan",
+      "nutrientsPer100g": {
+        "kcal": 125.5,
+        "protein": 2.7,
+        "carbs": 28.0,
+        "fat": 0.3,
+        "fibre": 0.4
+      },
+      "allergens": [],
+      "tags": [
+        "staple",
+        "easy_digest"
+      ],
+      "portions": [
+        {
+          "label": "1 katori",
+          "grams": 150.0,
+          "isDefault": true
+        },
+        {
+          "label": "1 plate",
+          "grams": 250.0,
+          "isDefault": false
+        }
+      ]
+    },
+    {
+      "key": "steamed_brown_rice",
+      "nameEn": "Steamed Brown Rice",
+      "nameHi": "ब्राउन राइस",
+      "nameKn": "ಕಂದು ಅನ್ನ",
+      "aliases": [
+        "brown rice",
+        "wholegrain rice"
+      ],
+      "category": "rice and grains",
+      "diet": "vegan",
+      "nutrientsPer100g": {
+        "kcal": 121.7,
+        "protein": 2.9,
+        "carbs": 25.5,
+        "fat": 0.9,
+        "fibre": 1.8
+      },
+      "allergens": [],
+      "tags": [
+        "staple",
+        "high_fibre"
+      ],
+      "portions": [
+        {
+          "label": "1 katori",
+          "grams": 150.0,
+          "isDefault": true
+        },
+        {
+          "label": "1 plate",
+          "grams": 250.0,
+          "isDefault": false
+        }
+      ]
+    },
+    {
+      "key": "jeera_rice",
+      "nameEn": "Jeera Rice",
+      "nameHi": "जीरा राइस",
+      "nameKn": "ಜೀರಿಗೆ ಅನ್ನ",
+      "aliases": [
+        "cumin rice",
+        "zeera rice"
+      ],
+      "category": "rice and grains",
+      "diet": "veg",
+      "nutrientsPer100g": {
+        "kcal": 168.5,
+        "protein": 3.0,
+        "carbs": 29.0,
+        "fat": 4.5,
+        "fibre": 0.8
+      },
+      "allergens": [
+        "milk"
+      ],
+      "tags": [
+        "comfort",
+        "warming"
+      ],
+      "portions": [
+        {
+          "label": "1 katori",
+          "grams": 150.0,
+          "isDefault": true
+        },
+        {
+          "label": "1 plate",
+          "grams": 250.0,
+          "isDefault": false
+        }
+      ]
+    },
+    {
+      "key": "khichdi_moong",
+      "nameEn": "Moong Dal Khichdi",
+      "nameHi": "मूंग दाल खिचड़ी",
+      "nameKn": "ಖಿಚಡಿ",
+      "aliases": [
+        "khichri",
+        "dal khichdi",
+        "kheechdi"
+      ],
+      "category": "rice and grains",
+      "diet": "veg",
+      "nutrientsPer100g": {
+        "kcal": 124.5,
+        "protein": 4.5,
+        "carbs": 21.0,
+        "fat": 2.5,
+        "fibre": 2.5
+      },
+      "allergens": [
+        "milk"
+      ],
+      "tags": [
+        "comfort",
+        "easy_digest",
+        "cooling"
+      ],
+      "portions": [
+        {
+          "label": "1 bowl",
+          "grams": 200.0,
+          "isDefault": true
+        },
+        {
+          "label": "1 katori",
+          "grams": 150.0,
+          "isDefault": false
+        }
+      ]
+    },
+    {
+      "key": "curd_rice",
+      "nameEn": "Curd Rice (Thayir Sadam)",
+      "nameHi": "दही चावल",
+      "nameKn": "ಮೊಸರನ್ನ",
+      "aliases": [
+        "mosaranna",
+        "thayir sadam",
+        "daddojanam",
+        "yogurt rice"
+      ],
+      "category": "rice and grains",
+      "diet": "veg",
+      "nutrientsPer100g": {
+        "kcal": 121.0,
+        "protein": 3.5,
+        "carbs": 20.0,
+        "fat": 3.0,
+        "fibre": 0.7
+      },
+      "allergens": [
+        "milk",
+        "mustard"
+      ],
+      "tags": [
+        "cooling",
+        "gut_friendly",
+        "comfort"
+      ],
+      "portions": [
+        {
+          "label": "1 bowl",
+          "grams": 200.0,
+          "isDefault": true
+        },
+        {
+          "label": "1 katori",
+          "grams": 150.0,
+          "isDefault": false
+        }
+      ]
+    },
+    {
+      "key": "lemon_rice",
+      "nameEn": "Lemon Rice (Chitranna)",
+      "nameHi": "लेमन राइस",
+      "nameKn": "ಚಿತ್ರಾನ್ನ",
+      "aliases": [
+        "chitranna",
+        "nimbu chawal",
+        "elamichai sadam"
+      ],
+      "category": "rice and grains",
+      "diet": "vegan",
+      "nutrientsPer100g": {
+        "kcal": 174.3,
+        "protein": 3.2,
+        "carbs": 28.0,
+        "fat": 5.5,
+        "fibre": 1.2
+      },
+      "allergens": [
+        "peanut",
+        "mustard"
+      ],
+      "tags": [
+        "tangy",
+        "tiffin"
+      ],
+      "portions": [
+        {
+          "label": "1 katori",
+          "grams": 150.0,
+          "isDefault": true
+        },
+        {
+          "label": "1 plate",
+          "grams": 250.0,
+          "isDefault": false
+        }
+      ]
+    },
+    {
+      "key": "veg_biryani",
+      "nameEn": "Vegetable Biryani",
+      "nameHi": "वेज बिरयानी",
+      "nameKn": "ತರಕಾರಿ ಬಿರಿಯಾನಿ",
+      "aliases": [
+        "veg pulao",
+        "vegetable pulao",
+        "biriyani"
+      ],
+      "category": "rice and grains",
+      "diet": "veg",
+      "nutrientsPer100g": {
+        "kcal": 161.0,
+        "protein": 4.0,
+        "carbs": 25.0,
+        "fat": 5.0,
+        "fibre": 2.2
+      },
+      "allergens": [
+        "milk"
+      ],
+      "tags": [
+        "festive",
+        "warming"
+      ],
+      "portions": [
+        {
+          "label": "1 bowl",
+          "grams": 250.0,
+          "isDefault": true
+        },
+        {
+          "label": "1 plate",
+          "grams": 350.0,
+          "isDefault": false
+        }
+      ]
+    },
+    {
+      "key": "chicken_biryani",
+      "nameEn": "Chicken Biryani",
+      "nameHi": "चिकन बिरयानी",
+      "nameKn": "ಚಿಕನ್ ಬಿರಿಯಾನಿ",
+      "aliases": [
+        "murgh biryani",
+        "dum biryani chicken",
+        "biriyani"
+      ],
+      "category": "rice and grains",
+      "diet": "nonveg",
+      "nutrientsPer100g": {
+        "kcal": 184.5,
+        "protein": 9.5,
+        "carbs": 22.0,
+        "fat": 6.5,
+        "fibre": 1.2
+      },
+      "allergens": [
+        "milk"
+      ],
+      "tags": [
+        "high_protein",
+        "festive",
+        "warming"
+      ],
+      "portions": [
+        {
+          "label": "1 plate",
+          "grams": 300.0,
+          "isDefault": true
+        },
+        {
+          "label": "1 small portion",
+          "grams": 200.0,
+          "isDefault": false
+        }
+      ]
+    },
+    {
+      "key": "bisi_bele_bath",
+      "nameEn": "Bisi Bele Bath",
+      "nameHi": "बीसी बेले भात",
+      "nameKn": "ಬಿಸಿ ಬೇಳೆ ಬಾತ್",
+      "aliases": [
+        "bisibelebath",
+        "sambar sadam",
+        "hot lentil rice"
+      ],
+      "category": "rice and grains",
+      "diet": "veg",
+      "nutrientsPer100g": {
+        "kcal": 142.0,
+        "protein": 4.5,
+        "carbs": 22.0,
+        "fat": 4.0,
+        "fibre": 2.8
+      },
+      "allergens": [
+        "milk",
+        "mustard"
+      ],
+      "tags": [
+        "comfort",
+        "warming"
+      ],
+      "portions": [
+        {
+          "label": "1 bowl",
+          "grams": 250.0,
+          "isDefault": true
+        }
+      ]
+    },
+    {
+      "key": "ven_pongal",
+      "nameEn": "Ven Pongal (Khara Pongal)",
+      "nameHi": "पोंगल",
+      "nameKn": "ಖಾರ ಪೊಂಗಲ್",
+      "aliases": [
+        "khara pongal",
+        "ghee pongal",
+        "ven pongal"
+      ],
+      "category": "rice and grains",
+      "diet": "veg",
+      "nutrientsPer100g": {
+        "kcal": 169.2,
+        "protein": 4.8,
+        "carbs": 24.0,
+        "fat": 6.0,
+        "fibre": 2.0
+      },
+      "allergens": [
+        "milk",
+        "tree_nut"
+      ],
+      "tags": [
+        "comfort",
+        "tiffin",
+        "warming"
+      ],
+      "portions": [
+        {
+          "label": "1 bowl",
+          "grams": 200.0,
+          "isDefault": true
+        }
+      ]
+    },
+    {
+      "key": "idli_steamed",
+      "nameEn": "Steamed Idli",
+      "nameHi": "इडली",
+      "nameKn": "ಇಡ್ಲಿ",
+      "aliases": [
+        "idly",
+        "rice cake",
+        "steamed idli",
+        "tiffin idli"
+      ],
+      "category": "South Indian tiffin",
+      "diet": "vegan",
+      "nutrientsPer100g": {
+        "kcal": 132.5,
+        "protein": 5.0,
+        "carbs": 27.0,
+        "fat": 0.5,
+        "fibre": 2.0
+      },
+      "allergens": [],
+      "tags": [
+        "fermented",
+        "easy_digest",
+        "staple",
+        "cooling"
+      ],
+      "portions": [
+        {
+          "label": "1 idli",
+          "grams": 40.0,
+          "isDefault": true
+        },
+        {
+          "label": "2 idlis",
+          "grams": 80.0,
+          "isDefault": false
+        },
+        {
+          "label": "3 idlis",
+          "grams": 120.0,
+          "isDefault": false
+        }
+      ]
+    },
+    {
+      "key": "plain_dosa",
+      "nameEn": "Plain Dosa (Sada Dosa)",
+      "nameHi": "सादा डोसा",
+      "nameKn": "ಸಾದಾ ದೋಸೆ",
+      "aliases": [
+        "dosai",
+        "dose",
+        "sada dosa",
+        "ದೋಸೆ",
+        "crispy dosa"
+      ],
+      "category": "South Indian tiffin",
+      "diet": "vegan",
+      "nutrientsPer100g": {
+        "kcal": 194.5,
+        "protein": 5.5,
+        "carbs": 33.0,
+        "fat": 4.5,
+        "fibre": 2.2
+      },
+      "allergens": [],
+      "tags": [
+        "fermented",
+        "tiffin"
+      ],
+      "portions": [
+        {
+          "label": "1 dosa",
+          "grams": 75.0,
+          "isDefault": true
+        },
+        {
+          "label": "1 large dosa",
+          "grams": 100.0,
+          "isDefault": false
+        }
+      ]
+    },
+    {
+      "key": "masala_dosa",
+      "nameEn": "Masala Dosa",
+      "nameHi": "मसाला डोसा",
+      "nameKn": "ಮಸಾಲ ದೋಸೆ",
+      "aliases": [
+        "masale dose",
+        "potato dosa",
+        "masala dosai",
+        "ದೋಸೆ"
+      ],
+      "category": "South Indian tiffin",
+      "diet": "veg",
+      "nutrientsPer100g": {
+        "kcal": 205.7,
+        "protein": 4.8,
+        "carbs": 32.0,
+        "fat": 6.5,
+        "fibre": 2.8
+      },
+      "allergens": [
+        "mustard"
+      ],
+      "tags": [
+        "tiffin",
+        "restaurant",
+        "comfort"
+      ],
+      "portions": [
+        {
+          "label": "1 dosa",
+          "grams": 150.0,
+          "isDefault": true
+        }
+      ]
+    },
+    {
+      "key": "rava_dosa",
+      "nameEn": "Rava Dosa",
+      "nameHi": "रवा डोसा",
+      "nameKn": "ರವೆ ದೋಸೆ",
+      "aliases": [
+        "sooji dosa",
+        "semolina dosa",
+        "crispy rava dosa",
+        "ದೋಸೆ"
+      ],
+      "category": "South Indian tiffin",
+      "diet": "veg",
+      "nutrientsPer100g": {
+        "kcal": 219.8,
+        "protein": 5.2,
+        "carbs": 34.0,
+        "fat": 7.0,
+        "fibre": 2.0
+      },
+      "allergens": [
+        "gluten",
+        "mustard"
+      ],
+      "tags": [
+        "crispy",
+        "tiffin"
+      ],
+      "portions": [
+        {
+          "label": "1 dosa",
+          "grams": 100.0,
+          "isDefault": true
+        }
+      ]
+    },
+    {
+      "key": "uttapam_onion",
+      "nameEn": "Onion Uttapam",
+      "nameHi": "प्याज उत्तपम",
+      "nameKn": "ಈರುಳ್ಳಿ ಉತ್ತಪ್ಪಂ",
+      "aliases": [
+        "uthappam",
+        "onion uthappa",
+        "oothappam"
+      ],
+      "category": "South Indian tiffin",
+      "diet": "vegan",
+      "nutrientsPer100g": {
+        "kcal": 166.0,
+        "protein": 4.5,
+        "carbs": 28.0,
+        "fat": 4.0,
+        "fibre": 2.5
+      },
+      "allergens": [],
+      "tags": [
+        "fermented",
+        "tiffin"
+      ],
+      "portions": [
+        {
+          "label": "1 uttapam",
+          "grams": 120.0,
+          "isDefault": true
+        }
+      ]
+    },
+    {
+      "key": "medu_vada",
+      "nameEn": "Medu Vada (Uddina Vada)",
+      "nameHi": "मेदू वड़ा",
+      "nameKn": "ಉದ್ದಿನ ವಡೆ",
+      "aliases": [
+        "vada",
+        "vadai",
+        "urad dal vada",
+        "meduvada"
+      ],
+      "category": "South Indian tiffin",
+      "diet": "vegan",
+      "nutrientsPer100g": {
+        "kcal": 273.0,
+        "protein": 8.5,
+        "carbs": 26.0,
+        "fat": 15.0,
+        "fibre": 4.0
+      },
+      "allergens": [],
+      "tags": [
+        "fried",
+        "crispy",
+        "tiffin"
+      ],
+      "portions": [
+        {
+          "label": "1 vada",
+          "grams": 45.0,
+          "isDefault": true
+        },
+        {
+          "label": "2 vadas",
+          "grams": 90.0,
+          "isDefault": false
+        }
+      ]
+    },
+    {
+      "key": "upma_sooji",
+      "nameEn": "Sooji Upma (Uppittu)",
+      "nameHi": "सूजी उपमा",
+      "nameKn": "ಉಪ್ಪಿಟ್ಟು",
+      "aliases": [
+        "uppittu",
+        "rava upma",
+        "semolina upma"
+      ],
+      "category": "South Indian tiffin",
+      "diet": "veg",
+      "nutrientsPer100g": {
+        "kcal": 156.2,
+        "protein": 3.8,
+        "carbs": 24.0,
+        "fat": 5.0,
+        "fibre": 2.0
+      },
+      "allergens": [
+        "gluten",
+        "mustard"
+      ],
+      "tags": [
+        "tiffin",
+        "easy_digest"
+      ],
+      "portions": [
+        {
+          "label": "1 bowl",
+          "grams": 180.0,
+          "isDefault": true
+        },
+        {
+          "label": "1 katori",
+          "grams": 120.0,
+          "isDefault": false
+        }
+      ]
+    },
+    {
+      "key": "poha_flattened_rice",
+      "nameEn": "Kanda Poha",
+      "nameHi": "कांदा पोहा",
+      "nameKn": "ಅವಲಕ್ಕಿ ಒಗ್ಗರಣೆ",
+      "aliases": [
+        "avalakki",
+        "poha",
+        "beaten rice",
+        "aval upma"
+      ],
+      "category": "South Indian tiffin",
+      "diet": "vegan",
+      "nutrientsPer100g": {
+        "kcal": 166.5,
+        "protein": 3.5,
+        "carbs": 28.0,
+        "fat": 4.5,
+        "fibre": 2.0
+      },
+      "allergens": [
+        "peanut",
+        "mustard"
+      ],
+      "tags": [
+        "tiffin",
+        "easy_digest"
+      ],
+      "portions": [
+        {
+          "label": "1 bowl",
+          "grams": 150.0,
+          "isDefault": true
+        }
+      ]
+    },
+    {
+      "key": "appam",
+      "nameEn": "Appam (Hoppers)",
+      "nameHi": "अप्पम",
+      "nameKn": "ಆಪ್ಪಂ",
+      "aliases": [
+        "hopper",
+        "kerala appam",
+        "palappam"
+      ],
+      "category": "South Indian tiffin",
+      "diet": "vegan",
+      "nutrientsPer100g": {
+        "kcal": 134.3,
+        "protein": 2.2,
+        "carbs": 28.0,
+        "fat": 1.5,
+        "fibre": 1.0
+      },
+      "allergens": [],
+      "tags": [
+        "fermented",
+        "light",
+        "cooling"
+      ],
+      "portions": [
+        {
+          "label": "1 appam",
+          "grams": 60.0,
+          "isDefault": true
+        },
+        {
+          "label": "2 appams",
+          "grams": 120.0,
+          "isDefault": false
+        }
+      ]
+    },
+    {
+      "key": "puttu",
+      "nameEn": "Rice Puttu",
+      "nameHi": "पुट्टू",
+      "nameKn": "ಪುಟ್ಟು",
+      "aliases": [
+        "steamed rice cake",
+        "kerala puttu"
+      ],
+      "category": "South Indian tiffin",
+      "diet": "vegan",
+      "nutrientsPer100g": {
+        "kcal": 162.8,
+        "protein": 3.2,
+        "carbs": 33.0,
+        "fat": 2.0,
+        "fibre": 2.2
+      },
+      "allergens": [],
+      "tags": [
+        "steamed",
+        "tiffin"
+      ],
+      "portions": [
+        {
+          "label": "1 piece",
+          "grams": 80.0,
+          "isDefault": true
+        }
+      ]
+    },
+    {
+      "key": "dal_tadka",
+      "nameEn": "Yellow Dal Tadka",
+      "nameHi": "दाल तड़का",
+      "nameKn": "ಬೇಳೆ ಸಾರು",
+      "aliases": [
+        "dal fry",
+        "toor dal",
+        "arhar dal",
+        "peeli dal"
+      ],
+      "category": "dals",
+      "diet": "veg",
+      "nutrientsPer100g": {
+        "kcal": 120.8,
+        "protein": 6.2,
+        "carbs": 15.0,
+        "fat": 4.0,
+        "fibre": 4.5
+      },
+      "allergens": [
+        "mustard",
+        "milk"
+      ],
+      "tags": [
+        "high_protein",
+        "high_fibre",
+        "comfort"
+      ],
+      "portions": [
+        {
+          "label": "1 katori",
+          "grams": 150.0,
+          "isDefault": true
+        },
+        {
+          "label": "1 big bowl",
+          "grams": 220.0,
+          "isDefault": false
+        }
+      ]
+    },
+    {
+      "key": "dal_makhani",
+      "nameEn": "Dal Makhani",
+      "nameHi": "दाल मखनी",
+      "nameKn": "ದಾಲ್ ಮಖನಿ",
+      "aliases": [
+        "black dal",
+        "urad dal makhani",
+        "creamy dal"
+      ],
+      "category": "dals",
+      "diet": "veg",
+      "nutrientsPer100g": {
+        "kcal": 157.5,
+        "protein": 6.5,
+        "carbs": 16.0,
+        "fat": 7.5,
+        "fibre": 5.0
+      },
+      "allergens": [
+        "milk"
+      ],
+      "tags": [
+        "restaurant",
+        "comfort",
+        "high_protein"
+      ],
+      "portions": [
+        {
+          "label": "1 katori",
+          "grams": 150.0,
+          "isDefault": true
+        }
+      ]
+    },
+    {
+      "key": "sambar",
+      "nameEn": "South Indian Sambar",
+      "nameHi": "सांबर",
+      "nameKn": "ಸಾಂಬಾರ್",
+      "aliases": [
+        "sambhar",
+        "veg sambar",
+        "toor dal sambar"
+      ],
+      "category": "dals",
+      "diet": "vegan",
+      "nutrientsPer100g": {
+        "kcal": 73.4,
+        "protein": 3.8,
+        "carbs": 10.5,
+        "fat": 1.8,
+        "fibre": 3.2
+      },
+      "allergens": [
+        "mustard"
+      ],
+      "tags": [
+        "high_fibre",
+        "tangy",
+        "tiffin"
+      ],
+      "portions": [
+        {
+          "label": "1 katori",
+          "grams": 150.0,
+          "isDefault": true
+        },
+        {
+          "label": "1 bowl",
+          "grams": 200.0,
+          "isDefault": false
+        }
+      ]
+    },
+    {
+      "key": "rasam",
+      "nameEn": "Tomato Rasam",
+      "nameHi": "रसम",
+      "nameKn": "ಸಾರು / ರಸಂ",
+      "aliases": [
+        "saaru",
+        "tomato saaru",
+        "pepper rasam"
+      ],
+      "category": "dals",
+      "diet": "vegan",
+      "nutrientsPer100g": {
+        "kcal": 39.0,
+        "protein": 1.5,
+        "carbs": 6.0,
+        "fat": 1.0,
+        "fibre": 1.2
+      },
+      "allergens": [
+        "mustard"
+      ],
+      "tags": [
+        "easy_digest",
+        "warming",
+        "water_rich"
+      ],
+      "portions": [
+        {
+          "label": "1 cup",
+          "grams": 150.0,
+          "isDefault": true
+        }
+      ]
+    },
+    {
+      "key": "chana_masala",
+      "nameEn": "Chana Masala (Chole)",
+      "nameHi": "चना मसाला / छोले",
+      "nameKn": "ಕಡಲೆ ಕಾಳು ಮಸಾಲೆ",
+      "aliases": [
+        "chole",
+        "chickpea curry",
+        "kabuli chana masala"
+      ],
+      "category": "dals",
+      "diet": "vegan",
+      "nutrientsPer100g": {
+        "kcal": 139.7,
+        "protein": 6.8,
+        "carbs": 18.0,
+        "fat": 4.5,
+        "fibre": 5.5
+      },
+      "allergens": [],
+      "tags": [
+        "high_protein",
+        "high_fibre",
+        "comfort"
+      ],
+      "portions": [
+        {
+          "label": "1 katori",
+          "grams": 150.0,
+          "isDefault": true
+        },
+        {
+          "label": "1 plate portion",
+          "grams": 200.0,
+          "isDefault": false
+        }
+      ]
+    },
+    {
+      "key": "rajma_masala",
+      "nameEn": "Rajma Masala (Kidney Beans)",
+      "nameHi": "राजमा मसाला",
+      "nameKn": "ರಾಜ್ಮಾ ಮಸಾಲೆ",
+      "aliases": [
+        "rajmah",
+        "red kidney bean curry",
+        "punjabi rajma"
+      ],
+      "category": "dals",
+      "diet": "veg",
+      "nutrientsPer100g": {
+        "kcal": 132.0,
+        "protein": 6.5,
+        "carbs": 17.5,
+        "fat": 4.0,
+        "fibre": 5.8
+      },
+      "allergens": [
+        "milk"
+      ],
+      "tags": [
+        "high_protein",
+        "high_fibre",
+        "comfort"
+      ],
+      "portions": [
+        {
+          "label": "1 katori",
+          "grams": 150.0,
+          "isDefault": true
+        },
+        {
+          "label": "1 bowl",
+          "grams": 220.0,
+          "isDefault": false
+        }
+      ]
+    },
+    {
+      "key": "moong_dal_boiled",
+      "nameEn": "Yellow Moong Dal (Boiled/Cooked)",
+      "nameHi": "मूंग दाल",
+      "nameKn": "ಹೆಸರು ಬೇಳೆ ಸಾರು",
+      "aliases": [
+        "hesaru bele",
+        "green gram split dal"
+      ],
+      "category": "dals",
+      "diet": "vegan",
+      "nutrientsPer100g": {
+        "kcal": 102.8,
+        "protein": 7.0,
+        "carbs": 16.0,
+        "fat": 1.2,
+        "fibre": 4.5
+      },
+      "allergens": [],
+      "tags": [
+        "high_protein",
+        "easy_digest",
+        "cooling"
+      ],
+      "portions": [
+        {
+          "label": "1 katori",
+          "grams": 150.0,
+          "isDefault": true
+        }
+      ]
+    },
+    {
+      "key": "kadhi_pakora",
+      "nameEn": "Punjabi Kadhi Pakora",
+      "nameHi": "कढ़ी पकोड़ा",
+      "nameKn": "ಮಜ್ಜಿಗೆ ಸಾರು ಪಕೋಡ",
+      "aliases": [
+        "kadhi",
+        "besan kadhi",
+        "curd curry"
+      ],
+      "category": "dals",
+      "diet": "veg",
+      "nutrientsPer100g": {
+        "kcal": 118.0,
+        "protein": 4.0,
+        "carbs": 12.0,
+        "fat": 6.0,
+        "fibre": 1.8
+      },
+      "allergens": [
+        "milk",
+        "mustard"
+      ],
+      "tags": [
+        "comfort",
+        "tangy"
+      ],
+      "portions": [
+        {
+          "label": "1 bowl",
+          "grams": 180.0,
+          "isDefault": true
+        }
+      ]
+    },
+    {
+      "key": "palak_paneer",
+      "nameEn": "Palak Paneer",
+      "nameHi": "पालक पनीर",
+      "nameKn": "ಪಾಲಕ್ ಪನೀರ್",
+      "aliases": [
+        "spinach cottage cheese",
+        "spinach paneer",
+        "panner palak",
+        "palak panner"
+      ],
+      "category": "vegetable dishes",
+      "diet": "veg",
+      "nutrientsPer100g": {
+        "kcal": 149.0,
+        "protein": 7.5,
+        "carbs": 5.0,
+        "fat": 11.0,
+        "fibre": 3.0
+      },
+      "allergens": [
+        "milk"
+      ],
+      "tags": [
+        "high_protein",
+        "iron_rich",
+        "comfort"
+      ],
+      "portions": [
+        {
+          "label": "1 katori",
+          "grams": 150.0,
+          "isDefault": true
+        },
+        {
+          "label": "1 bowl",
+          "grams": 200.0,
+          "isDefault": false
+        }
+      ]
+    },
+    {
+      "key": "paneer_butter_masala",
+      "nameEn": "Paneer Butter Masala",
+      "nameHi": "पनीर बटर मसाला",
+      "nameKn": "ಪನೀರ್ ಬಟರ್ ಮಸಾಲ",
+      "aliases": [
+        "paneer makhani",
+        "butter paneer",
+        "panner butter masala",
+        "paneer gravy"
+      ],
+      "category": "vegetable dishes",
+      "diet": "veg",
+      "nutrientsPer100g": {
+        "kcal": 199.0,
+        "protein": 7.0,
+        "carbs": 9.0,
+        "fat": 15.0,
+        "fibre": 2.0
+      },
+      "allergens": [
+        "milk",
+        "tree_nut"
+      ],
+      "tags": [
+        "restaurant",
+        "comfort",
+        "festive"
+      ],
+      "portions": [
+        {
+          "label": "1 katori",
+          "grams": 150.0,
+          "isDefault": true
+        }
+      ]
+    },
+    {
+      "key": "matar_paneer",
+      "nameEn": "Matar Paneer",
+      "nameHi": "मटर पनीर",
+      "nameKn": "ಮಟರ್ ಪನೀರ್",
+      "aliases": [
+        "peas paneer",
+        "mutter paneer",
+        "panner matar"
+      ],
+      "category": "vegetable dishes",
+      "diet": "veg",
+      "nutrientsPer100g": {
+        "kcal": 146.2,
+        "protein": 6.8,
+        "carbs": 9.5,
+        "fat": 9.0,
+        "fibre": 3.2
+      },
+      "allergens": [
+        "milk"
+      ],
+      "tags": [
+        "comfort",
+        "high_protein"
+      ],
+      "portions": [
+        {
+          "label": "1 katori",
+          "grams": 150.0,
+          "isDefault": true
+        }
+      ]
+    },
+    {
+      "key": "aloo_gobi",
+      "nameEn": "Aloo Gobi",
+      "nameHi": "आलू गोभी",
+      "nameKn": "ಆಲೂ ಗೋಬಿ",
+      "aliases": [
+        "potato cauliflower curry",
+        "alu gobi dry sabzi"
+      ],
+      "category": "vegetable dishes",
+      "diet": "vegan",
+      "nutrientsPer100g": {
+        "kcal": 106.5,
+        "protein": 2.5,
+        "carbs": 14.0,
+        "fat": 4.5,
+        "fibre": 3.5
+      },
+      "allergens": [],
+      "tags": [
+        "staple",
+        "comfort"
+      ],
+      "portions": [
+        {
+          "label": "1 katori",
+          "grams": 130.0,
+          "isDefault": true
+        }
+      ]
+    },
+    {
+      "key": "bhindi_masala",
+      "nameEn": "Bhindi Masala (Okra)",
+      "nameHi": "भिंडी मसाला",
+      "nameKn": "ಬೆಂಡೆಕಾಯಿ ಪಲ್ಯ",
+      "aliases": [
+        "okra fry",
+        "ladies finger dry sabzi",
+        "bendekayi palya"
+      ],
+      "category": "vegetable dishes",
+      "diet": "vegan",
+      "nutrientsPer100g": {
+        "kcal": 89.8,
+        "protein": 2.2,
+        "carbs": 9.0,
+        "fat": 5.0,
+        "fibre": 3.8
+      },
+      "allergens": [],
+      "tags": [
+        "high_fibre",
+        "staple"
+      ],
+      "portions": [
+        {
+          "label": "1 katori",
+          "grams": 120.0,
+          "isDefault": true
+        }
+      ]
+    },
+    {
+      "key": "baingan_bharta",
+      "nameEn": "Baingan Bharta (Roasted Eggplant)",
+      "nameHi": "बैंगन भर्ता",
+      "nameKn": "ಬದನೆಕಾಯಿ ಗೊಜ್ಜು",
+      "aliases": [
+        "eggplant mash",
+        "roasted brinjal curry",
+        "badanekayi ennegayi"
+      ],
+      "category": "vegetable dishes",
+      "diet": "vegan",
+      "nutrientsPer100g": {
+        "kcal": 81.7,
+        "protein": 1.8,
+        "carbs": 8.5,
+        "fat": 4.5,
+        "fibre": 3.8
+      },
+      "allergens": [],
+      "tags": [
+        "smoky",
+        "high_fibre"
+      ],
+      "portions": [
+        {
+          "label": "1 katori",
+          "grams": 130.0,
+          "isDefault": true
+        }
+      ]
+    },
+    {
+      "key": "aloo_methi",
+      "nameEn": "Aloo Methi (Fenugreek Leaves)",
+      "nameHi": "आलू मेथी",
+      "nameKn": "ಆಲೂ ಮೆಂತ್ಯ ಪಲ್ಯ",
+      "aliases": [
+        "potato fenugreek",
+        "alu menthya"
+      ],
+      "category": "vegetable dishes",
+      "diet": "vegan",
+      "nutrientsPer100g": {
+        "kcal": 98.4,
+        "protein": 2.6,
+        "carbs": 13.0,
+        "fat": 4.0,
+        "fibre": 3.6
+      },
+      "allergens": [],
+      "tags": [
+        "high_fibre",
+        "staple",
+        "warming"
+      ],
+      "portions": [
+        {
+          "label": "1 katori",
+          "grams": 120.0,
+          "isDefault": true
+        }
+      ]
+    },
+    {
+      "key": "avial",
+      "nameEn": "Kerala Avial (Mixed Veg in Coconut)",
+      "nameHi": "अवियल",
+      "nameKn": "ಅವಿಯಲ್",
+      "aliases": [
+        "mixed veg coconut curry",
+        "sadya avial"
+      ],
+      "category": "vegetable dishes",
+      "diet": "veg",
+      "nutrientsPer100g": {
+        "kcal": 113.0,
+        "protein": 2.5,
+        "carbs": 10.0,
+        "fat": 7.0,
+        "fibre": 4.2
+      },
+      "allergens": [
+        "milk"
+      ],
+      "tags": [
+        "high_fibre",
+        "cooling",
+        "festive"
+      ],
+      "portions": [
+        {
+          "label": "1 katori",
+          "grams": 130.0,
+          "isDefault": true
+        }
+      ]
+    },
+    {
+      "key": "beans_poriyal",
+      "nameEn": "Beans Poriyal (Green Beans Stir Fry)",
+      "nameHi": "बीन्स पोरियल",
+      "nameKn": "ಹುರುಳಿಕಾಯಿ ಪಲ್ಯ",
+      "aliases": [
+        "hurulikayi palya",
+        "beans thoran",
+        "french beans fry"
+      ],
+      "category": "vegetable dishes",
+      "diet": "vegan",
+      "nutrientsPer100g": {
+        "kcal": 73.1,
+        "protein": 2.4,
+        "carbs": 8.0,
+        "fat": 3.5,
+        "fibre": 4.0
+      },
+      "allergens": [
+        "mustard"
+      ],
+      "tags": [
+        "high_fibre",
+        "light",
+        "staple"
+      ],
+      "portions": [
+        {
+          "label": "1 katori",
+          "grams": 100.0,
+          "isDefault": true
+        }
+      ]
+    },
+    {
+      "key": "mix_veg_sabzi",
+      "nameEn": "Mixed Vegetable Curry",
+      "nameHi": "मिक्स वेज",
+      "nameKn": "ಮಿಕ್ಸ್ ವೆಜ್ ಪಲ್ಯ",
+      "aliases": [
+        "subz korma",
+        "mix veg gravy",
+        "mixed vegetable korma"
+      ],
+      "category": "vegetable dishes",
+      "diet": "veg",
+      "nutrientsPer100g": {
+        "kcal": 104.7,
+        "protein": 2.8,
+        "carbs": 11.0,
+        "fat": 5.5,
+        "fibre": 3.5
+      },
+      "allergens": [
+        "milk"
+      ],
+      "tags": [
+        "comfort",
+        "staple"
+      ],
+      "portions": [
+        {
+          "label": "1 katori",
+          "grams": 150.0,
+          "isDefault": true
+        }
+      ]
+    },
+    {
+      "key": "boiled_egg",
+      "nameEn": "Boiled Egg (Whole)",
+      "nameHi": "उबला अंडा",
+      "nameKn": "ಬೇಯಿಸಿದ ಮೊಟ್ಟೆ",
+      "aliases": [
+        "hard boiled egg",
+        "mottai",
+        "anda"
+      ],
+      "category": "egg/meat/fish",
+      "diet": "egg",
+      "nutrientsPer100g": {
+        "kcal": 150.2,
+        "protein": 12.6,
+        "carbs": 1.1,
+        "fat": 10.6,
+        "fibre": 0.0
+      },
+      "allergens": [
+        "egg"
+      ],
+      "tags": [
+        "high_protein",
+        "quick",
+        "staple"
+      ],
+      "portions": [
+        {
+          "label": "1 large egg",
+          "grams": 50.0,
+          "isDefault": true
+        },
+        {
+          "label": "2 eggs",
+          "grams": 100.0,
+          "isDefault": false
+        }
+      ]
+    },
+    {
+      "key": "egg_white_boiled",
+      "nameEn": "Boiled Egg White",
+      "nameHi": "अंडे की सफेदी",
+      "nameKn": "ಮೊಟ್ಟೆ ಬಿಳಿಭಾಗ",
+      "aliases": [
+        "egg white",
+        "anda safedi"
+      ],
+      "category": "egg/meat/fish",
+      "diet": "egg",
+      "nutrientsPer100g": {
+        "kcal": 48.6,
+        "protein": 11.0,
+        "carbs": 0.7,
+        "fat": 0.2,
+        "fibre": 0.0
+      },
+      "allergens": [
+        "egg"
+      ],
+      "tags": [
+        "high_protein",
+        "low_fat",
+        "staple"
+      ],
+      "portions": [
+        {
+          "label": "1 egg white",
+          "grams": 33.0,
+          "isDefault": true
+        },
+        {
+          "label": "3 egg whites",
+          "grams": 100.0,
+          "isDefault": false
+        }
+      ]
+    },
+    {
+      "key": "egg_bhurji",
+      "nameEn": "Egg Bhurji (Scrambled)",
+      "nameHi": "अंडा भुर्जी",
+      "nameKn": "ಮೊಟ್ಟೆ ಪಲ್ಯ",
+      "aliases": [
+        "masala scrambled egg",
+        "anda bhurji",
+        "egg scramble"
+      ],
+      "category": "egg/meat/fish",
+      "diet": "egg",
+      "nutrientsPer100g": {
+        "kcal": 164.0,
+        "protein": 11.0,
+        "carbs": 3.0,
+        "fat": 12.0,
+        "fibre": 0.8
+      },
+      "allergens": [
+        "egg"
+      ],
+      "tags": [
+        "high_protein",
+        "quick",
+        "tiffin"
+      ],
+      "portions": [
+        {
+          "label": "1 bowl (2 eggs)",
+          "grams": 120.0,
+          "isDefault": true
+        }
+      ]
+    },
+    {
+      "key": "egg_curry",
+      "nameEn": "Egg Curry (Masala)",
+      "nameHi": "अंडा करी",
+      "nameKn": "ಮೊಟ್ಟೆ ಸಾರು",
+      "aliases": [
+        "anda curry",
+        "mottai kulambu",
+        "egg gravy"
+      ],
+      "category": "egg/meat/fish",
+      "diet": "egg",
+      "nutrientsPer100g": {
+        "kcal": 148.0,
+        "protein": 9.5,
+        "carbs": 5.0,
+        "fat": 10.0,
+        "fibre": 1.2
+      },
+      "allergens": [
+        "egg"
+      ],
+      "tags": [
+        "high_protein",
+        "comfort"
+      ],
+      "portions": [
+        {
+          "label": "1 bowl (1 egg + gravy)",
+          "grams": 150.0,
+          "isDefault": true
+        }
+      ]
+    },
+    {
+      "key": "chicken_curry_homestyle",
+      "nameEn": "Homestyle Chicken Curry",
+      "nameHi": "चिकन करी",
+      "nameKn": "ಕೋಳಿ ಸಾರು",
+      "aliases": [
+        "koli saaru",
+        "murgh curry",
+        "chicken gravy",
+        "tariwala chicken"
+      ],
+      "category": "egg/meat/fish",
+      "diet": "nonveg",
+      "nutrientsPer100g": {
+        "kcal": 146.0,
+        "protein": 15.0,
+        "carbs": 3.5,
+        "fat": 8.0,
+        "fibre": 1.0
+      },
+      "allergens": [],
+      "tags": [
+        "high_protein",
+        "comfort"
+      ],
+      "portions": [
+        {
+          "label": "1 katori",
+          "grams": 150.0,
+          "isDefault": true
+        },
+        {
+          "label": "1 bowl",
+          "grams": 220.0,
+          "isDefault": false
+        }
+      ]
+    },
+    {
+      "key": "butter_chicken",
+      "nameEn": "Butter Chicken (Murgh Makhani)",
+      "nameHi": "बटर चिकन",
+      "nameKn": "ಬಟರ್ ಚಿಕನ್",
+      "aliases": [
+        "murgh makhani",
+        "chicken makhani"
+      ],
+      "category": "egg/meat/fish",
+      "diet": "nonveg",
+      "nutrientsPer100g": {
+        "kcal": 210.0,
+        "protein": 14.0,
+        "carbs": 7.0,
+        "fat": 14.0,
+        "fibre": 1.2
+      },
+      "allergens": [
+        "milk",
+        "tree_nut"
+      ],
+      "tags": [
+        "restaurant",
+        "high_protein",
+        "comfort"
+      ],
+      "portions": [
+        {
+          "label": "1 bowl",
+          "grams": 180.0,
+          "isDefault": true
+        }
+      ]
+    },
+    {
+      "key": "tandoori_chicken",
+      "nameEn": "Tandoori Chicken",
+      "nameHi": "तंदूरी चिकन",
+      "nameKn": "ತಂದೂರಿ ಚಿಕನ್",
+      "aliases": [
+        "grilled chicken",
+        "roast chicken indian style"
+      ],
+      "category": "egg/meat/fish",
+      "diet": "nonveg",
+      "nutrientsPer100g": {
+        "kcal": 171.0,
+        "protein": 24.0,
+        "carbs": 3.0,
+        "fat": 7.0,
+        "fibre": 0.5
+      },
+      "allergens": [
+        "milk"
+      ],
+      "tags": [
+        "high_protein",
+        "low_carb",
+        "restaurant"
+      ],
+      "portions": [
+        {
+          "label": "1 piece (breast/leg)",
+          "grams": 130.0,
+          "isDefault": true
+        }
+      ]
+    },
+    {
+      "key": "fish_curry_south",
+      "nameEn": "South Indian Fish Curry (Meen Kulambu)",
+      "nameHi": "मछली करी",
+      "nameKn": "ಮೀನು ಸಾರು",
+      "aliases": [
+        "meen curry",
+        "meen kulambu",
+        "fish masala gravy"
+      ],
+      "category": "egg/meat/fish",
+      "diet": "nonveg",
+      "nutrientsPer100g": {
+        "kcal": 130.5,
+        "protein": 14.5,
+        "carbs": 3.5,
+        "fat": 6.5,
+        "fibre": 1.0
+      },
+      "allergens": [
+        "fish",
+        "mustard"
+      ],
+      "tags": [
+        "high_protein",
+        "tangy"
+      ],
+      "portions": [
+        {
+          "label": "1 bowl",
+          "grams": 180.0,
+          "isDefault": true
+        }
+      ]
+    },
+    {
+      "key": "fish_fry_tawa",
+      "nameEn": "Tawa Fish Fry",
+      "nameHi": "तवा फिश फ्राई",
+      "nameKn": "ಮೀನು ಫ್ರೈ",
+      "aliases": [
+        "meen varuval",
+        "pan fried fish",
+        "rava fish fry"
+      ],
+      "category": "egg/meat/fish",
+      "diet": "nonveg",
+      "nutrientsPer100g": {
+        "kcal": 181.0,
+        "protein": 20.0,
+        "carbs": 5.0,
+        "fat": 9.0,
+        "fibre": 0.5
+      },
+      "allergens": [
+        "fish"
+      ],
+      "tags": [
+        "high_protein",
+        "crispy"
+      ],
+      "portions": [
+        {
+          "label": "1 fillet",
+          "grams": 100.0,
+          "isDefault": true
+        }
+      ]
+    },
+    {
+      "key": "mutton_curry",
+      "nameEn": "Mutton Curry (Roganjosh Style)",
+      "nameHi": "मटन करी",
+      "nameKn": "ಕುರಿ ಮಾಂಸದ ಸಾರು",
+      "aliases": [
+        "gosht curry",
+        "lamb curry",
+        "rogan josh",
+        "mutton gravy"
+      ],
+      "category": "egg/meat/fish",
+      "diet": "nonveg",
+      "nutrientsPer100g": {
+        "kcal": 193.0,
+        "protein": 16.0,
+        "carbs": 3.0,
+        "fat": 13.0,
+        "fibre": 0.8
+      },
+      "allergens": [],
+      "tags": [
+        "high_protein",
+        "warming",
+        "festive"
+      ],
+      "portions": [
+        {
+          "label": "1 bowl",
+          "grams": 180.0,
+          "isDefault": true
+        }
+      ]
+    },
+    {
+      "key": "prawn_masala",
+      "nameEn": "Prawn Masala (Shrimp Curry)",
+      "nameHi": "झींगा मसाला",
+      "nameKn": "ಸಿಗಡಿ ಮಸಾಲೆ",
+      "aliases": [
+        "chemmeen curry",
+        "shrimp masala",
+        "kolambi curry"
+      ],
+      "category": "egg/meat/fish",
+      "diet": "nonveg",
+      "nutrientsPer100g": {
+        "kcal": 136.0,
+        "protein": 16.5,
+        "carbs": 4.0,
+        "fat": 6.0,
+        "fibre": 0.8
+      },
+      "allergens": [
+        "shellfish"
+      ],
+      "tags": [
+        "high_protein",
+        "coastal"
+      ],
+      "portions": [
+        {
+          "label": "1 bowl",
+          "grams": 150.0,
+          "isDefault": true
+        }
+      ]
+    },
+    {
+      "key": "cow_milk_toned",
+      "nameEn": "Cow Milk (Toned 3% Fat)",
+      "nameHi": "गाय का दूध (टोंड)",
+      "nameKn": "ಹಸುವಿನ ಹಾಲು",
+      "aliases": [
+        "toned milk",
+        "fresh milk",
+        "paal",
+        "doodh"
+      ],
+      "category": "dairy",
+      "diet": "veg",
+      "nutrientsPer100g": {
+        "kcal": 59.0,
+        "protein": 3.2,
+        "carbs": 4.8,
+        "fat": 3.0,
+        "fibre": 0.0
+      },
+      "allergens": [
+        "milk"
+      ],
+      "tags": [
+        "calcium_rich",
+        "staple"
+      ],
+      "portions": [
+        {
+          "label": "1 glass",
+          "grams": 200.0,
+          "isDefault": true
+        },
+        {
+          "label": "1 cup",
+          "grams": 150.0,
+          "isDefault": false
+        }
+      ]
+    },
+    {
+      "key": "curd_plain_dahi",
+      "nameEn": "Plain Curd (Dahi / Yogurt)",
+      "nameHi": "दही",
+      "nameKn": "ಮೊಸರು",
+      "aliases": [
+        "mosaru",
+        "dahi",
+        "plain yogurt",
+        "thayir"
+      ],
+      "category": "dairy",
+      "diet": "veg",
+      "nutrientsPer100g": {
+        "kcal": 62.5,
+        "protein": 3.5,
+        "carbs": 4.7,
+        "fat": 3.3,
+        "fibre": 0.0
+      },
+      "allergens": [
+        "milk"
+      ],
+      "tags": [
+        "cooling",
+        "gut_friendly",
+        "staple"
+      ],
+      "portions": [
+        {
+          "label": "1 katori",
+          "grams": 150.0,
+          "isDefault": true
+        },
+        {
+          "label": "1 cup",
+          "grams": 200.0,
+          "isDefault": false
+        }
+      ]
+    },
+    {
+      "key": "paneer_raw",
+      "nameEn": "Fresh Paneer (Cottage Cheese)",
+      "nameHi": "ताज़ा पनीर",
+      "nameKn": "ತಾಜಾ ಪನೀರ್",
+      "aliases": [
+        "panner",
+        "cottage cheese",
+        "paneer cubes",
+        "chenna"
+      ],
+      "category": "dairy",
+      "diet": "veg",
+      "nutrientsPer100g": {
+        "kcal": 275.0,
+        "protein": 18.0,
+        "carbs": 3.5,
+        "fat": 21.0,
+        "fibre": 0.0
+      },
+      "allergens": [
+        "milk"
+      ],
+      "tags": [
+        "high_protein",
+        "calcium_rich",
+        "staple"
+      ],
+      "portions": [
+        {
+          "label": "50g portion",
+          "grams": 50.0,
+          "isDefault": true
+        },
+        {
+          "label": "100g portion",
+          "grams": 100.0,
+          "isDefault": false
+        }
+      ]
+    },
+    {
+      "key": "chaas_buttermilk",
+      "nameEn": "Chaas (Spiced Buttermilk)",
+      "nameHi": "छाछ",
+      "nameKn": "ಮಜ್ಜಿಗೆ",
+      "aliases": [
+        "majjige",
+        "mattha",
+        "mor",
+        "buttermilk",
+        "sambharam"
+      ],
+      "category": "dairy",
+      "diet": "veg",
+      "nutrientsPer100g": {
+        "kcal": 25.0,
+        "protein": 1.5,
+        "carbs": 2.5,
+        "fat": 1.0,
+        "fibre": 0.1
+      },
+      "allergens": [
+        "milk"
+      ],
+      "tags": [
+        "cooling",
+        "gut_friendly",
+        "water_rich"
+      ],
+      "portions": [
+        {
+          "label": "1 glass",
+          "grams": 200.0,
+          "isDefault": true
+        }
+      ]
+    },
+    {
+      "key": "sweet_lassi",
+      "nameEn": "Sweet Lassi",
+      "nameHi": "मीठी लस्सी",
+      "nameKn": "ಸಿಹಿ ಲಸ್ಸಿ",
+      "aliases": [
+        "punjabi lassi",
+        "dahi drink"
+      ],
+      "category": "dairy",
+      "diet": "veg",
+      "nutrientsPer100g": {
+        "kcal": 104.0,
+        "protein": 2.8,
+        "carbs": 16.0,
+        "fat": 3.2,
+        "fibre": 0.0
+      },
+      "allergens": [
+        "milk"
+      ],
+      "tags": [
+        "cooling",
+        "beverage"
+      ],
+      "portions": [
+        {
+          "label": "1 glass",
+          "grams": 250.0,
+          "isDefault": true
+        }
+      ]
+    },
+    {
+      "key": "ghee_desi",
+      "nameEn": "Desi Cow Ghee",
+      "nameHi": "देसी घी",
+      "nameKn": "ತುಪ್ಪ",
+      "aliases": [
+        "clarified butter",
+        "thuppeda",
+        "neyyi",
+        "ghee"
+      ],
+      "category": "dairy",
+      "diet": "veg",
+      "nutrientsPer100g": {
+        "kcal": 895.5,
+        "protein": 0.0,
+        "carbs": 0.0,
+        "fat": 99.5,
+        "fibre": 0.0
+      },
+      "allergens": [
+        "milk"
+      ],
+      "tags": [
+        "pure_fat",
+        "warming",
+        "staple"
+      ],
+      "portions": [
+        {
+          "label": "1 tsp",
+          "grams": 5.0,
+          "isDefault": true
+        },
+        {
+          "label": "1 tbsp",
+          "grams": 15.0,
+          "isDefault": false
+        }
+      ]
+    },
+    {
+      "key": "banana_robusta",
+      "nameEn": "Banana (Cavendish / Robusta)",
+      "nameHi": "केला",
+      "nameKn": "ಬಾಳೆಹಣ್ಣು",
+      "aliases": [
+        "kela",
+        "balehannu",
+        "yellow banana"
+      ],
+      "category": "fruits",
+      "diet": "vegan",
+      "nutrientsPer100g": {
+        "kcal": 98.7,
+        "protein": 1.2,
+        "carbs": 22.8,
+        "fat": 0.3,
+        "fibre": 2.6
+      },
+      "allergens": [],
+      "tags": [
+        "potassium_rich",
+        "quick_energy",
+        "staple"
+      ],
+      "portions": [
+        {
+          "label": "1 medium banana",
+          "grams": 100.0,
+          "isDefault": true
+        },
+        {
+          "label": "1 small banana",
+          "grams": 70.0,
+          "isDefault": false
+        }
+      ]
+    },
+    {
+      "key": "mango_alphonso",
+      "nameEn": "Mango (Ripe Alphonso/Kesar)",
+      "nameHi": "आम",
+      "nameKn": "ಮಾವಿನಹಣ್ಣು",
+      "aliases": [
+        "aam",
+        "mavinahannu",
+        "ripe mango"
+      ],
+      "category": "fruits",
+      "diet": "vegan",
+      "nutrientsPer100g": {
+        "kcal": 66.8,
+        "protein": 0.8,
+        "carbs": 15.0,
+        "fat": 0.4,
+        "fibre": 1.6
+      },
+      "allergens": [],
+      "tags": [
+        "vitamin_c",
+        "sweet",
+        "seasonal"
+      ],
+      "portions": [
+        {
+          "label": "1 cup sliced",
+          "grams": 150.0,
+          "isDefault": true
+        },
+        {
+          "label": "1 whole fruit",
+          "grams": 200.0,
+          "isDefault": false
+        }
+      ]
+    },
+    {
+      "key": "apple_fresh",
+      "nameEn": "Apple (Kashmiri/Kinnaur)",
+      "nameHi": "सेब",
+      "nameKn": "ಸೇಬು",
+      "aliases": [
+        "seb",
+        "sebu",
+        "red apple"
+      ],
+      "category": "fruits",
+      "diet": "vegan",
+      "nutrientsPer100g": {
+        "kcal": 58.2,
+        "protein": 0.3,
+        "carbs": 13.8,
+        "fat": 0.2,
+        "fibre": 2.4
+      },
+      "allergens": [],
+      "tags": [
+        "high_fibre",
+        "snack"
+      ],
+      "portions": [
+        {
+          "label": "1 medium apple",
+          "grams": 150.0,
+          "isDefault": true
+        }
+      ]
+    },
+    {
+      "key": "guava_pink_white",
+      "nameEn": "Guava (Amrood)",
+      "nameHi": "अमरूद",
+      "nameKn": "ಸೀಬೆಹಣ್ಣು",
+      "aliases": [
+        "amrud",
+        "pera",
+        "seebe hannu",
+        "perakka"
+      ],
+      "category": "fruits",
+      "diet": "vegan",
+      "nutrientsPer100g": {
+        "kcal": 76.6,
+        "protein": 2.6,
+        "carbs": 14.3,
+        "fat": 1.0,
+        "fibre": 5.4
+      },
+      "allergens": [],
+      "tags": [
+        "vitamin_c",
+        "high_fibre",
+        "cooling"
+      ],
+      "portions": [
+        {
+          "label": "1 medium guava",
+          "grams": 120.0,
+          "isDefault": true
+        }
+      ]
+    },
+    {
+      "key": "papaya_ripe",
+      "nameEn": "Ripe Papaya",
+      "nameHi": "पपीता",
+      "nameKn": "ಪರಂಗಿಹಣ್ಣು",
+      "aliases": [
+        "papita",
+        "parangi hannu",
+        "omakkai"
+      ],
+      "category": "fruits",
+      "diet": "vegan",
+      "nutrientsPer100g": {
+        "kcal": 47.4,
+        "protein": 0.6,
+        "carbs": 10.8,
+        "fat": 0.2,
+        "fibre": 1.7
+      },
+      "allergens": [],
+      "tags": [
+        "gut_friendly",
+        "water_rich",
+        "cooling"
+      ],
+      "portions": [
+        {
+          "label": "1 bowl cubes",
+          "grams": 150.0,
+          "isDefault": true
+        }
+      ]
+    },
+    {
+      "key": "pomegranate_anar",
+      "nameEn": "Pomegranate (Anar)",
+      "nameHi": "अनार",
+      "nameKn": "ದಾಳಿಂಬೆ",
+      "aliases": [
+        "anar",
+        "dalimbe",
+        "pom arils"
+      ],
+      "category": "fruits",
+      "diet": "vegan",
+      "nutrientsPer100g": {
+        "kcal": 92.4,
+        "protein": 1.7,
+        "carbs": 18.7,
+        "fat": 1.2,
+        "fibre": 4.0
+      },
+      "allergens": [],
+      "tags": [
+        "antioxidant_rich",
+        "high_fibre"
+      ],
+      "portions": [
+        {
+          "label": "1 cup arils",
+          "grams": 100.0,
+          "isDefault": true
+        }
+      ]
+    },
+    {
+      "key": "watermelon_fresh",
+      "nameEn": "Watermelon (Tarbooj)",
+      "nameHi": "तरबूज",
+      "nameKn": "ಕಲ್ಲಂಗಡಿ",
+      "aliases": [
+        "tarbooz",
+        "kallangadi",
+        "thanni mathan"
+      ],
+      "category": "fruits",
+      "diet": "vegan",
+      "nutrientsPer100g": {
+        "kcal": 34.2,
+        "protein": 0.6,
+        "carbs": 7.5,
+        "fat": 0.2,
+        "fibre": 0.4
+      },
+      "allergens": [],
+      "tags": [
+        "water_rich",
+        "cooling",
+        "low_calorie"
+      ],
+      "portions": [
+        {
+          "label": "1 bowl chunks",
+          "grams": 200.0,
+          "isDefault": true
+        }
+      ]
+    },
+    {
+      "key": "sapodilla_chikoo",
+      "nameEn": "Sapodilla (Chikoo)",
+      "nameHi": "चीकू",
+      "nameKn": "ಸಪೋಟ",
+      "aliases": [
+        "chiku",
+        "sapota",
+        "chikoo fruit"
+      ],
+      "category": "fruits",
+      "diet": "vegan",
+      "nutrientsPer100g": {
+        "kcal": 92.7,
+        "protein": 0.7,
+        "carbs": 20.0,
+        "fat": 1.1,
+        "fibre": 5.3
+      },
+      "allergens": [],
+      "tags": [
+        "high_fibre",
+        "energy_dense"
+      ],
+      "portions": [
+        {
+          "label": "1 fruit",
+          "grams": 80.0,
+          "isDefault": true
+        }
+      ]
+    },
+    {
+      "key": "orange_nagpur",
+      "nameEn": "Indian Orange (Santra)",
+      "nameHi": "संतरा",
+      "nameKn": "ಕಿತ್ತಳೆಹಣ್ಣು",
+      "aliases": [
+        "santra",
+        "kittale hannu",
+        "mandarin orange"
+      ],
+      "category": "fruits",
+      "diet": "vegan",
+      "nutrientsPer100g": {
+        "kcal": 50.5,
+        "protein": 0.9,
+        "carbs": 11.5,
+        "fat": 0.1,
+        "fibre": 2.4
+      },
+      "allergens": [],
+      "tags": [
+        "vitamin_c",
+        "water_rich",
+        "cooling"
+      ],
+      "portions": [
+        {
+          "label": "1 whole fruit",
+          "grams": 130.0,
+          "isDefault": true
+        }
+      ]
+    },
+    {
+      "key": "jamun_black_plum",
+      "nameEn": "Jamun (Indian Blackberry)",
+      "nameHi": "जामुन",
+      "nameKn": "ನೇರಳೆಹಣ್ಣು",
+      "aliases": [
+        "java plum",
+        "nerale hannu",
+        "black plum"
+      ],
+      "category": "fruits",
+      "diet": "vegan",
+      "nutrientsPer100g": {
+        "kcal": 60.6,
+        "protein": 0.7,
+        "carbs": 14.0,
+        "fat": 0.2,
+        "fibre": 0.9
+      },
+      "allergens": [],
+      "tags": [
+        "blood_sugar_friendly",
+        "seasonal",
+        "cooling"
+      ],
+      "portions": [
+        {
+          "label": "1 cup",
+          "grams": 100.0,
+          "isDefault": true
+        }
+      ]
+    },
+    {
+      "key": "cucumber_kheera",
+      "nameEn": "Cucumber (Kheera)",
+      "nameHi": "खीरा",
+      "nameKn": "ಸೌತೆಕಾಯಿ",
+      "aliases": [
+        "southekayi",
+        "kakdi",
+        "salad cucumber"
+      ],
+      "category": "vegetables",
+      "diet": "vegan",
+      "nutrientsPer100g": {
+        "kcal": 13.7,
+        "protein": 0.7,
+        "carbs": 2.5,
+        "fat": 0.1,
+        "fibre": 0.7
+      },
+      "allergens": [],
+      "tags": [
+        "water_rich",
+        "cooling",
+        "low_calorie",
+        "salad"
+      ],
+      "portions": [
+        {
+          "label": "1 medium cucumber",
+          "grams": 120.0,
+          "isDefault": true
+        }
+      ]
+    },
+    {
+      "key": "tomato_red",
+      "nameEn": "Fresh Tomato (Tamatar)",
+      "nameHi": "टमाटर",
+      "nameKn": "ಟೊಮೆಟೊ",
+      "aliases": [
+        "tamatar",
+        "thakkali",
+        "red tomato"
+      ],
+      "category": "vegetables",
+      "diet": "vegan",
+      "nutrientsPer100g": {
+        "kcal": 21.0,
+        "protein": 0.9,
+        "carbs": 3.9,
+        "fat": 0.2,
+        "fibre": 1.2
+      },
+      "allergens": [],
+      "tags": [
+        "vitamin_c",
+        "water_rich",
+        "staple"
+      ],
+      "portions": [
+        {
+          "label": "1 medium tomato",
+          "grams": 90.0,
+          "isDefault": true
+        }
+      ]
+    },
+    {
+      "key": "spinach_palak",
+      "nameEn": "Spinach Leaves (Raw Palak)",
+      "nameHi": "पालक के पत्ते",
+      "nameKn": "ಪಾಲಕ್ ಸೊಪ್ಪು",
+      "aliases": [
+        "palak",
+        "spinach green",
+        "palak soppu"
+      ],
+      "category": "vegetables",
+      "diet": "vegan",
+      "nutrientsPer100g": {
+        "kcal": 29.6,
+        "protein": 2.9,
+        "carbs": 3.6,
+        "fat": 0.4,
+        "fibre": 2.2
+      },
+      "allergens": [],
+      "tags": [
+        "iron_rich",
+        "folate_rich",
+        "cooling"
+      ],
+      "portions": [
+        {
+          "label": "1 bunch chopped",
+          "grams": 100.0,
+          "isDefault": true
+        }
+      ]
+    },
+    {
+      "key": "bitter_gourd_karela",
+      "nameEn": "Bitter Gourd (Karela)",
+      "nameHi": "करेला",
+      "nameKn": "ಹಾಗಲಕಾಯಿ",
+      "aliases": [
+        "karela",
+        "hagalakayi",
+        "pavakkai",
+        "bitter melon"
+      ],
+      "category": "vegetables",
+      "diet": "vegan",
+      "nutrientsPer100g": {
+        "kcal": 26.2,
+        "protein": 1.8,
+        "carbs": 4.3,
+        "fat": 0.2,
+        "fibre": 2.8
+      },
+      "allergens": [],
+      "tags": [
+        "blood_sugar_friendly",
+        "detox",
+        "cooling"
+      ],
+      "portions": [
+        {
+          "label": "1 medium karela",
+          "grams": 80.0,
+          "isDefault": true
+        }
+      ]
+    },
+    {
+      "key": "bottle_gourd_lauki",
+      "nameEn": "Bottle Gourd (Lauki / Doodhi)",
+      "nameHi": "लौकी / दूधी",
+      "nameKn": "ಸೋರೆಕಾಯಿ",
+      "aliases": [
+        "doodhi",
+        "ghiya",
+        "sorekayi",
+        "sorakaya"
+      ],
+      "category": "vegetables",
+      "diet": "vegan",
+      "nutrientsPer100g": {
+        "kcal": 13.3,
+        "protein": 0.6,
+        "carbs": 2.5,
+        "fat": 0.1,
+        "fibre": 1.2
+      },
+      "allergens": [],
+      "tags": [
+        "water_rich",
+        "cooling",
+        "low_calorie",
+        "easy_digest"
+      ],
+      "portions": [
+        {
+          "label": "1 cup diced",
+          "grams": 120.0,
+          "isDefault": true
+        }
+      ]
+    },
+    {
+      "key": "carrot_gajar",
+      "nameEn": "Red Carrot (Gajar)",
+      "nameHi": "गाजर",
+      "nameKn": "ಕ್ಯಾರೆಟ್",
+      "aliases": [
+        "gajar",
+        "delhi carrot",
+        "carrot"
+      ],
+      "category": "vegetables",
+      "diet": "vegan",
+      "nutrientsPer100g": {
+        "kcal": 43.8,
+        "protein": 0.9,
+        "carbs": 9.6,
+        "fat": 0.2,
+        "fibre": 2.8
+      },
+      "allergens": [],
+      "tags": [
+        "vitamin_a",
+        "salad",
+        "crunchy"
+      ],
+      "portions": [
+        {
+          "label": "1 medium carrot",
+          "grams": 75.0,
+          "isDefault": true
+        }
+      ]
+    },
+    {
+      "key": "radish_white_mooli",
+      "nameEn": "White Radish (Mooli / Daikon)",
+      "nameHi": "मूली",
+      "nameKn": "ಮೂಲಂಗಿ",
+      "aliases": [
+        "mooli",
+        "moolangi",
+        "mullangi"
+      ],
+      "category": "vegetables",
+      "diet": "vegan",
+      "nutrientsPer100g": {
+        "kcal": 17.3,
+        "protein": 0.7,
+        "carbs": 3.4,
+        "fat": 0.1,
+        "fibre": 1.6
+      },
+      "allergens": [],
+      "tags": [
+        "easy_digest",
+        "cooling",
+        "salad"
+      ],
+      "portions": [
+        {
+          "label": "1 medium mooli",
+          "grams": 90.0,
+          "isDefault": true
+        }
+      ]
+    },
+    {
+      "key": "onion_red",
+      "nameEn": "Red Onion (Pyaz)",
+      "nameHi": "प्याज",
+      "nameKn": "ಈರುಳ್ಳಿ",
+      "aliases": [
+        "pyaz",
+        "eerulli",
+        "vengayam",
+        "kanda"
+      ],
+      "category": "vegetables",
+      "diet": "vegan",
+      "nutrientsPer100g": {
+        "kcal": 42.5,
+        "protein": 1.1,
+        "carbs": 9.3,
+        "fat": 0.1,
+        "fibre": 1.7
+      },
+      "allergens": [],
+      "tags": [
+        "staple",
+        "flavouring"
+      ],
+      "portions": [
+        {
+          "label": "1 medium onion",
+          "grams": 80.0,
+          "isDefault": true
+        }
+      ]
+    },
+    {
+      "key": "beetroot_fresh",
+      "nameEn": "Fresh Beetroot (Chukandar)",
+      "nameHi": "चुकंदर",
+      "nameKn": "ಬೀಟ್‌ರೂಟ್",
+      "aliases": [
+        "chukandar",
+        "beet",
+        "beetroot"
+      ],
+      "category": "vegetables",
+      "diet": "vegan",
+      "nutrientsPer100g": {
+        "kcal": 46.6,
+        "protein": 1.6,
+        "carbs": 9.6,
+        "fat": 0.2,
+        "fibre": 2.8
+      },
+      "allergens": [],
+      "tags": [
+        "nitrate_rich",
+        "antioxidant_rich",
+        "salad"
+      ],
+      "portions": [
+        {
+          "label": "1 medium beetroot",
+          "grams": 100.0,
+          "isDefault": true
+        }
+      ]
+    },
+    {
+      "key": "cauliflower_raw",
+      "nameEn": "Cauliflower Florets (Gobi)",
+      "nameHi": "फूलगोभी",
+      "nameKn": "ಹೂಕೋಸು",
+      "aliases": [
+        "phool gobi",
+        "hookosu",
+        "cauliflower"
+      ],
+      "category": "vegetables",
+      "diet": "vegan",
+      "nutrientsPer100g": {
+        "kcal": 30.3,
+        "protein": 1.9,
+        "carbs": 5.0,
+        "fat": 0.3,
+        "fibre": 2.0
+      },
+      "allergens": [],
+      "tags": [
+        "low_calorie",
+        "staple"
+      ],
+      "portions": [
+        {
+          "label": "1 cup florets",
+          "grams": 100.0,
+          "isDefault": true
+        }
+      ]
+    },
+    {
+      "key": "almonds_raw",
+      "nameEn": "Almonds (Badam)",
+      "nameHi": "बादाम",
+      "nameKn": "ಬಾದಾಮಿ",
+      "aliases": [
+        "badam",
+        "badami",
+        "raw almonds"
+      ],
+      "category": "nuts",
+      "diet": "vegan",
+      "nutrientsPer100g": {
+        "kcal": 582.0,
+        "protein": 21.0,
+        "carbs": 12.0,
+        "fat": 50.0,
+        "fibre": 12.0
+      },
+      "allergens": [
+        "tree_nut"
+      ],
+      "tags": [
+        "healthy_fats",
+        "high_protein",
+        "vitamin_e"
+      ],
+      "portions": [
+        {
+          "label": "1 handful (10 nuts)",
+          "grams": 15.0,
+          "isDefault": true
+        },
+        {
+          "label": "1 ounce",
+          "grams": 28.0,
+          "isDefault": false
+        }
+      ]
+    },
+    {
+      "key": "cashews_kaju",
+      "nameEn": "Cashew Nuts (Kaju)",
+      "nameHi": "काजू",
+      "nameKn": "ಗೋಡಂಬಿ",
+      "aliases": [
+        "kaju",
+        "godambi",
+        "raw cashews"
+      ],
+      "category": "nuts",
+      "diet": "vegan",
+      "nutrientsPer100g": {
+        "kcal": 588.0,
+        "protein": 18.0,
+        "carbs": 30.0,
+        "fat": 44.0,
+        "fibre": 3.3
+      },
+      "allergens": [
+        "tree_nut"
+      ],
+      "tags": [
+        "energy_dense",
+        "rich"
+      ],
+      "portions": [
+        {
+          "label": "1 handful (10 nuts)",
+          "grams": 15.0,
+          "isDefault": true
+        }
+      ]
+    },
+    {
+      "key": "peanuts_roasted",
+      "nameEn": "Roasted Peanuts (Moongfali)",
+      "nameHi": "भुनी मूंगफली",
+      "nameKn": "ಹುರಿದ ಕಡಲೆಕಾಯಿ",
+      "aliases": [
+        "moongphali",
+        "shenga",
+        "kadlekayi",
+        "groundnuts"
+      ],
+      "category": "nuts",
+      "diet": "vegan",
+      "nutrientsPer100g": {
+        "kcal": 609.0,
+        "protein": 26.0,
+        "carbs": 16.0,
+        "fat": 49.0,
+        "fibre": 8.5
+      },
+      "allergens": [
+        "peanut"
+      ],
+      "tags": [
+        "high_protein",
+        "healthy_fats",
+        "staple"
+      ],
+      "portions": [
+        {
+          "label": "1 handful",
+          "grams": 25.0,
+          "isDefault": true
+        }
+      ]
+    },
+    {
+      "key": "walnuts_akhrot",
+      "nameEn": "Walnuts (Akhrot)",
+      "nameHi": "अखरोट",
+      "nameKn": "ಅಕ್ರೋಟು",
+      "aliases": [
+        "akhrot",
+        "akrota",
+        "walnut halves"
+      ],
+      "category": "nuts",
+      "diet": "vegan",
+      "nutrientsPer100g": {
+        "kcal": 701.0,
+        "protein": 15.0,
+        "carbs": 14.0,
+        "fat": 65.0,
+        "fibre": 6.7
+      },
+      "allergens": [
+        "tree_nut"
+      ],
+      "tags": [
+        "omega_3",
+        "brain_food"
+      ],
+      "portions": [
+        {
+          "label": "4 halves",
+          "grams": 15.0,
+          "isDefault": true
+        }
+      ]
+    },
+    {
+      "key": "pistachios_pista",
+      "nameEn": "Pistachios (Pista)",
+      "nameHi": "पिस्ता",
+      "nameKn": "ಪಿಸ್ತಾ",
+      "aliases": [
+        "pista",
+        "shelled pistachios"
+      ],
+      "category": "nuts",
+      "diet": "vegan",
+      "nutrientsPer100g": {
+        "kcal": 597.0,
+        "protein": 20.0,
+        "carbs": 28.0,
+        "fat": 45.0,
+        "fibre": 10.0
+      },
+      "allergens": [
+        "tree_nut"
+      ],
+      "tags": [
+        "high_protein",
+        "high_fibre"
+      ],
+      "portions": [
+        {
+          "label": "1 handful (20 nuts)",
+          "grams": 20.0,
+          "isDefault": true
+        }
+      ]
+    },
+    {
+      "key": "flaxseeds_alsi",
+      "nameEn": "Flax Seeds (Alsi)",
+      "nameHi": "अलसी के बीज",
+      "nameKn": "ಅಗಸೆ ಬೀಜ",
+      "aliases": [
+        "alsi",
+        "agase beeja",
+        "linseed"
+      ],
+      "category": "nuts",
+      "diet": "vegan",
+      "nutrientsPer100g": {
+        "kcal": 566.0,
+        "protein": 18.0,
+        "carbs": 29.0,
+        "fat": 42.0,
+        "fibre": 27.0
+      },
+      "allergens": [],
+      "tags": [
+        "omega_3",
+        "high_fibre"
+      ],
+      "portions": [
+        {
+          "label": "1 tbsp ground",
+          "grams": 10.0,
+          "isDefault": true
+        }
+      ]
+    },
+    {
+      "key": "sesame_seeds_til",
+      "nameEn": "Sesame Seeds (Til)",
+      "nameHi": "सफेद तिल",
+      "nameKn": "ಎಳ್ಳು",
+      "aliases": [
+        "til",
+        "ellu",
+        "white sesame"
+      ],
+      "category": "nuts",
+      "diet": "vegan",
+      "nutrientsPer100g": {
+        "kcal": 611.7,
+        "protein": 17.7,
+        "carbs": 23.4,
+        "fat": 49.7,
+        "fibre": 11.8
+      },
+      "allergens": [
+        "sesame"
+      ],
+      "tags": [
+        "calcium_rich",
+        "warming"
+      ],
+      "portions": [
+        {
+          "label": "1 tbsp",
+          "grams": 10.0,
+          "isDefault": true
+        }
+      ]
+    },
+    {
+      "key": "samosa_veg",
+      "nameEn": "Punjabi Aloo Samosa",
+      "nameHi": "समोसा",
+      "nameKn": "ಸಮೋಸಾ",
+      "aliases": [
+        "singhara",
+        "potato samosa",
+        "veg samosa"
+      ],
+      "category": "snacks",
+      "diet": "vegan",
+      "nutrientsPer100g": {
+        "kcal": 281.0,
+        "protein": 4.5,
+        "carbs": 32.0,
+        "fat": 15.0,
+        "fibre": 2.5
+      },
+      "allergens": [
+        "gluten"
+      ],
+      "tags": [
+        "fried",
+        "street_food",
+        "comfort"
+      ],
+      "portions": [
+        {
+          "label": "1 piece",
+          "grams": 75.0,
+          "isDefault": true
+        },
+        {
+          "label": "2 pieces",
+          "grams": 150.0,
+          "isDefault": false
+        }
+      ]
+    },
+    {
+      "key": "onion_pakora",
+      "nameEn": "Onion Pakora (Kanda Bhaji)",
+      "nameHi": "प्याज के पकौड़े",
+      "nameKn": "ಈರುಳ್ಳಿ ಪಕೋಡ",
+      "aliases": [
+        "pyaz pakoda",
+        "kanda bhajiya",
+        "onion fritter"
+      ],
+      "category": "snacks",
+      "diet": "vegan",
+      "nutrientsPer100g": {
+        "kcal": 318.0,
+        "protein": 6.5,
+        "carbs": 28.0,
+        "fat": 20.0,
+        "fibre": 3.5
+      },
+      "allergens": [],
+      "tags": [
+        "fried",
+        "monsoon",
+        "crispy"
+      ],
+      "portions": [
+        {
+          "label": "1 plate (4-5 pieces)",
+          "grams": 100.0,
+          "isDefault": true
+        }
+      ]
+    },
+    {
+      "key": "khamand_dhokla",
+      "nameEn": "Khaman Dhokla",
+      "nameHi": "खमन ढोकला",
+      "nameKn": "ಡೋಕ್ಲಾ",
+      "aliases": [
+        "besan dhokla",
+        "steamed dhokla",
+        "gujarati dhokla"
+      ],
+      "category": "snacks",
+      "diet": "vegan",
+      "nutrientsPer100g": {
+        "kcal": 171.0,
+        "protein": 6.5,
+        "carbs": 25.0,
+        "fat": 5.0,
+        "fibre": 3.0
+      },
+      "allergens": [
+        "mustard"
+      ],
+      "tags": [
+        "steamed",
+        "low_fat",
+        "fermented"
+      ],
+      "portions": [
+        {
+          "label": "2 pieces",
+          "grams": 80.0,
+          "isDefault": true
+        },
+        {
+          "label": "1 piece",
+          "grams": 40.0,
+          "isDefault": false
+        }
+      ]
+    },
+    {
+      "key": "bhel_puri",
+      "nameEn": "Bhel Puri",
+      "nameHi": "भेल पूरी",
+      "nameKn": "ಬೇಲ್ ಪುರಿ",
+      "aliases": [
+        "bhelpuri",
+        "churmuri",
+        "puffed rice chaat"
+      ],
+      "category": "snacks",
+      "diet": "vegan",
+      "nutrientsPer100g": {
+        "kcal": 242.0,
+        "protein": 4.5,
+        "carbs": 38.0,
+        "fat": 8.0,
+        "fibre": 3.5
+      },
+      "allergens": [
+        "peanut",
+        "gluten"
+      ],
+      "tags": [
+        "tangy",
+        "street_food",
+        "crunchy"
+      ],
+      "portions": [
+        {
+          "label": "1 plate",
+          "grams": 150.0,
+          "isDefault": true
+        }
+      ]
+    },
+    {
+      "key": "pani_puri",
+      "nameEn": "Pani Puri (Gol Gappa)",
+      "nameHi": "पानी पूरी / गोल गप्पे",
+      "nameKn": "ಪಾನಿ ಪುರಿ",
+      "aliases": [
+        "golgappe",
+        "puchka",
+        "gupchup",
+        "pani patasa"
+      ],
+      "category": "snacks",
+      "diet": "vegan",
+      "nutrientsPer100g": {
+        "kcal": 156.5,
+        "protein": 3.0,
+        "carbs": 26.0,
+        "fat": 4.5,
+        "fibre": 2.0
+      },
+      "allergens": [
+        "gluten"
+      ],
+      "tags": [
+        "street_food",
+        "tangy"
+      ],
+      "portions": [
+        {
+          "label": "6 puris with water",
+          "grams": 120.0,
+          "isDefault": true
+        }
+      ]
+    },
+    {
+      "key": "roasted_chana",
+      "nameEn": "Roasted Bengal Gram (Bhuna Chana)",
+      "nameHi": "भुना चना",
+      "nameKn": "ಹುರಿಕಡಲೆ",
+      "aliases": [
+        "bhuna chana",
+        "hurigadale",
+        "roasted chickpeas"
+      ],
+      "category": "snacks",
+      "diet": "vegan",
+      "nutrientsPer100g": {
+        "kcal": 351.0,
+        "protein": 18.5,
+        "carbs": 58.0,
+        "fat": 5.0,
+        "fibre": 16.0
+      },
+      "allergens": [],
+      "tags": [
+        "high_protein",
+        "high_fibre",
+        "snack"
+      ],
+      "portions": [
+        {
+          "label": "1 handful",
+          "grams": 30.0,
+          "isDefault": true
+        }
+      ]
+    },
+    {
+      "key": "chana_sundal",
+      "nameEn": "Chana Sundal (Tempered Chickpeas)",
+      "nameHi": "चना सुंडल",
+      "nameKn": "ಕಡಲೆಕಾಳು ಉಸಲಿ",
+      "aliases": [
+        "chickpea usli",
+        "kondakadalai sundal"
+      ],
+      "category": "snacks",
+      "diet": "vegan",
+      "nutrientsPer100g": {
+        "kcal": 168.5,
+        "protein": 8.0,
+        "carbs": 24.0,
+        "fat": 4.5,
+        "fibre": 7.0
+      },
+      "allergens": [
+        "mustard"
+      ],
+      "tags": [
+        "high_protein",
+        "high_fibre",
+        "temple_food"
+      ],
+      "portions": [
+        {
+          "label": "1 cup",
+          "grams": 100.0,
+          "isDefault": true
+        }
+      ]
+    },
+    {
+      "key": "makhana_roasted",
+      "nameEn": "Roasted Makhana (Fox Nuts)",
+      "nameHi": "भुना मखाना",
+      "nameKn": "ಹುರಿದ ಮಖಾನ",
+      "aliases": [
+        "fox nuts roasted",
+        "lotus seeds",
+        "phool makhana"
+      ],
+      "category": "snacks",
+      "diet": "veg",
+      "nutrientsPer100g": {
+        "kcal": 357.0,
+        "protein": 9.5,
+        "carbs": 64.0,
+        "fat": 7.0,
+        "fibre": 8.0
+      },
+      "allergens": [
+        "milk"
+      ],
+      "tags": [
+        "light",
+        "high_fibre",
+        "snack"
+      ],
+      "portions": [
+        {
+          "label": "1 bowl",
+          "grams": 30.0,
+          "isDefault": true
+        }
+      ]
+    },
+    {
+      "key": "murukku_chakli",
+      "nameEn": "Murukku (Chakli)",
+      "nameHi": "चकली / मुरुक्कू",
+      "nameKn": "ಚಕ್ಕುಲಿ",
+      "aliases": [
+        "chakli",
+        "chakkuli",
+        "crispy murukku"
+      ],
+      "category": "snacks",
+      "diet": "vegan",
+      "nutrientsPer100g": {
+        "kcal": 472.0,
+        "protein": 6.0,
+        "carbs": 58.0,
+        "fat": 24.0,
+        "fibre": 3.0
+      },
+      "allergens": [
+        "sesame"
+      ],
+      "tags": [
+        "fried",
+        "crispy",
+        "festive"
+      ],
+      "portions": [
+        {
+          "label": "2 pieces",
+          "grams": 35.0,
+          "isDefault": true
+        }
+      ]
+    },
+    {
+      "key": "nylon_sev",
+      "nameEn": "Besan Sev",
+      "nameHi": "सेव",
+      "nameKn": "ಕಾರಾಸೇವ್",
+      "aliases": [
+        "nylon sev",
+        "karasev",
+        "bhujia"
+      ],
+      "category": "snacks",
+      "diet": "vegan",
+      "nutrientsPer100g": {
+        "kcal": 517.0,
+        "protein": 11.0,
+        "carbs": 44.0,
+        "fat": 33.0,
+        "fibre": 4.0
+      },
+      "allergens": [],
+      "tags": [
+        "fried",
+        "crispy"
+      ],
+      "portions": [
+        {
+          "label": "2 tbsp",
+          "grams": 20.0,
+          "isDefault": true
+        }
+      ]
+    },
+    {
+      "key": "gulab_jamun",
+      "nameEn": "Gulab Jamun",
+      "nameHi": "गुलाब जामुन",
+      "nameKn": "ಗುಲಾಬ್ ಜಾಮೂನ್",
+      "aliases": [
+        "jamun sweet",
+        "khoya jamun"
+      ],
+      "category": "sweets",
+      "diet": "veg",
+      "nutrientsPer100g": {
+        "kcal": 332.0,
+        "protein": 4.0,
+        "carbs": 52.0,
+        "fat": 12.0,
+        "fibre": 0.5
+      },
+      "allergens": [
+        "milk",
+        "gluten"
+      ],
+      "tags": [
+        "sweet",
+        "festive",
+        "comfort"
+      ],
+      "portions": [
+        {
+          "label": "1 piece with syrup",
+          "grams": 50.0,
+          "isDefault": true
+        },
+        {
+          "label": "2 pieces",
+          "grams": 100.0,
+          "isDefault": false
+        }
+      ]
+    },
+    {
+      "key": "rasgulla",
+      "nameEn": "Rasgulla (Roshogolla)",
+      "nameHi": "रसगुल्ला",
+      "nameKn": "ರಸಗುಲ್ಲಾ",
+      "aliases": [
+        "roshogolla",
+        "chenna sweet",
+        "bengali rasgulla"
+      ],
+      "category": "sweets",
+      "diet": "veg",
+      "nutrientsPer100g": {
+        "kcal": 181.5,
+        "protein": 4.0,
+        "carbs": 38.0,
+        "fat": 1.5,
+        "fibre": 0.0
+      },
+      "allergens": [
+        "milk"
+      ],
+      "tags": [
+        "sweet",
+        "spongy",
+        "festive"
+      ],
+      "portions": [
+        {
+          "label": "1 piece",
+          "grams": 45.0,
+          "isDefault": true
+        },
+        {
+          "label": "2 pieces",
+          "grams": 90.0,
+          "isDefault": false
+        }
+      ]
+    },
+    {
+      "key": "rice_kheer_payasam",
+      "nameEn": "Rice Kheer (Payasam)",
+      "nameHi": "चावल की खीर",
+      "nameKn": "ಪಾಯಸ",
+      "aliases": [
+        "payasam",
+        "pal payasam",
+        "rice pudding indian style"
+      ],
+      "category": "sweets",
+      "diet": "veg",
+      "nutrientsPer100g": {
+        "kcal": 151.7,
+        "protein": 3.8,
+        "carbs": 24.0,
+        "fat": 4.5,
+        "fibre": 0.4
+      },
+      "allergens": [
+        "milk",
+        "tree_nut"
+      ],
+      "tags": [
+        "sweet",
+        "festive",
+        "comfort"
+      ],
+      "portions": [
+        {
+          "label": "1 katori",
+          "grams": 120.0,
+          "isDefault": true
+        }
+      ]
+    },
+    {
+      "key": "besan_ladoo",
+      "nameEn": "Besan Ladoo",
+      "nameHi": "बेसन के लड्डू",
+      "nameKn": "ಕಡಲೆಹಿಟ್ಟಿನ ಲಾಡು",
+      "aliases": [
+        "besan laddu",
+        "gram flour laddu"
+      ],
+      "category": "sweets",
+      "diet": "veg",
+      "nutrientsPer100g": {
+        "kcal": 464.0,
+        "protein": 8.0,
+        "carbs": 54.0,
+        "fat": 24.0,
+        "fibre": 4.0
+      },
+      "allergens": [
+        "milk",
+        "tree_nut"
+      ],
+      "tags": [
+        "sweet",
+        "festive"
+      ],
+      "portions": [
+        {
+          "label": "1 ladoo",
+          "grams": 40.0,
+          "isDefault": true
+        }
+      ]
+    },
+    {
+      "key": "mysore_pak",
+      "nameEn": "Mysore Pak (Ghee)",
+      "nameHi": "मैसूर पाक",
+      "nameKn": "ಮೈಸೂರ್ ಪಾಕ್",
+      "aliases": [
+        "mysuru pak",
+        "ghee mysore pak"
+      ],
+      "category": "sweets",
+      "diet": "veg",
+      "nutrientsPer100g": {
+        "kcal": 518.0,
+        "protein": 5.0,
+        "carbs": 48.0,
+        "fat": 34.0,
+        "fibre": 2.0
+      },
+      "allergens": [
+        "milk"
+      ],
+      "tags": [
+        "sweet",
+        "rich",
+        "festive"
+      ],
+      "portions": [
+        {
+          "label": "1 piece",
+          "grams": 35.0,
+          "isDefault": true
+        }
+      ]
+    },
+    {
+      "key": "kaju_katli",
+      "nameEn": "Kaju Katli (Cashew Fudge)",
+      "nameHi": "काजू कतली",
+      "nameKn": "ಕಾಜು ಕತ್ಲಿ",
+      "aliases": [
+        "kaju barfi",
+        "cashew diamond"
+      ],
+      "category": "sweets",
+      "diet": "veg",
+      "nutrientsPer100g": {
+        "kcal": 448.0,
+        "protein": 9.0,
+        "carbs": 58.0,
+        "fat": 20.0,
+        "fibre": 1.5
+      },
+      "allergens": [
+        "tree_nut"
+      ],
+      "tags": [
+        "sweet",
+        "festive",
+        "popular"
+      ],
+      "portions": [
+        {
+          "label": "1 piece",
+          "grams": 20.0,
+          "isDefault": true
+        },
+        {
+          "label": "2 pieces",
+          "grams": 40.0,
+          "isDefault": false
+        }
+      ]
+    },
+    {
+      "key": "jalebi",
+      "nameEn": "Crispy Jalebi",
+      "nameHi": "जलेबी",
+      "nameKn": "ಜಿಲೇಬಿ",
+      "aliases": [
+        "jilebi",
+        "zulbia",
+        "sweet spiral"
+      ],
+      "category": "sweets",
+      "diet": "vegan",
+      "nutrientsPer100g": {
+        "kcal": 398.0,
+        "protein": 2.5,
+        "carbs": 70.0,
+        "fat": 12.0,
+        "fibre": 0.5
+      },
+      "allergens": [
+        "gluten"
+      ],
+      "tags": [
+        "sweet",
+        "fried",
+        "crispy"
+      ],
+      "portions": [
+        {
+          "label": "2-3 pieces",
+          "grams": 60.0,
+          "isDefault": true
+        }
+      ]
+    },
+    {
+      "key": "sooji_halwa_kesari",
+      "nameEn": "Sooji Halwa (Rava Kesari)",
+      "nameHi": "सूजी का हलवा",
+      "nameKn": "ರವೆ ಕೇಸರಿ ಬಾತ್",
+      "aliases": [
+        "sheera",
+        "rava kesari",
+        "kesari bath"
+      ],
+      "category": "sweets",
+      "diet": "veg",
+      "nutrientsPer100g": {
+        "kcal": 306.0,
+        "protein": 3.5,
+        "carbs": 46.0,
+        "fat": 12.0,
+        "fibre": 1.2
+      },
+      "allergens": [
+        "gluten",
+        "milk",
+        "tree_nut"
+      ],
+      "tags": [
+        "sweet",
+        "festive"
+      ],
+      "portions": [
+        {
+          "label": "1 small bowl",
+          "grams": 80.0,
+          "isDefault": true
+        }
+      ]
+    },
+    {
+      "key": "masala_chai",
+      "nameEn": "Masala Chai (with Milk and Sugar)",
+      "nameHi": "मसाला चाय",
+      "nameKn": "ಮಸಾಲ ಚಹಾ",
+      "aliases": [
+        "tea",
+        "chai",
+        "ginger tea",
+        "adrak chai",
+        "kadak chai"
+      ],
+      "category": "drinks",
+      "diet": "veg",
+      "nutrientsPer100g": {
+        "kcal": 61.4,
+        "protein": 1.8,
+        "carbs": 9.5,
+        "fat": 1.8,
+        "fibre": 0.0
+      },
+      "allergens": [
+        "milk"
+      ],
+      "tags": [
+        "warming",
+        "comfort",
+        "caffeine",
+        "staple"
+      ],
+      "portions": [
+        {
+          "label": "1 cup",
+          "grams": 150.0,
+          "isDefault": true
+        }
+      ]
+    },
+    {
+      "key": "south_filter_coffee",
+      "nameEn": "South Indian Filter Coffee",
+      "nameHi": "फ़िल्टर कॉफ़ी",
+      "nameKn": "ಫಿಲ್ಟರ್ ಕಾಫಿ",
+      "aliases": [
+        "kaapi",
+        "degree coffee",
+        "kappi"
+      ],
+      "category": "drinks",
+      "diet": "veg",
+      "nutrientsPer100g": {
+        "kcal": 60.6,
+        "protein": 2.2,
+        "carbs": 8.0,
+        "fat": 2.2,
+        "fibre": 0.0
+      },
+      "allergens": [
+        "milk"
+      ],
+      "tags": [
+        "caffeine",
+        "comfort",
+        "staple"
+      ],
+      "portions": [
+        {
+          "label": "1 tumbler",
+          "grams": 120.0,
+          "isDefault": true
+        }
+      ]
+    },
+    {
+      "key": "tender_coconut_water",
+      "nameEn": "Tender Coconut Water (Elaneer)",
+      "nameHi": "नारियल पानी",
+      "nameKn": "ಎಳನೀರು",
+      "aliases": [
+        "elaneeru",
+        "daab",
+        "nariyal pani",
+        "fresh coconut water"
+      ],
+      "category": "drinks",
+      "diet": "vegan",
+      "nutrientsPer100g": {
+        "kcal": 19.4,
+        "protein": 0.7,
+        "carbs": 3.7,
+        "fat": 0.2,
+        "fibre": 1.1
+      },
+      "allergens": [],
+      "tags": [
+        "electrolyte_rich",
+        "cooling",
+        "low_calorie",
+        "hydration"
+      ],
+      "portions": [
+        {
+          "label": "1 coconut (water)",
+          "grams": 250.0,
+          "isDefault": true
+        }
+      ]
+    },
+    {
+      "key": "nimbu_pani_shikanji",
+      "nameEn": "Nimbu Pani (Indian Lemonade)",
+      "nameHi": "नींबू पानी / शिकंजी",
+      "nameKn": "ನಿಂಬೆ ಹಣ್ಣಿನ ಶರಬತ್ತು",
+      "aliases": [
+        "shikanji",
+        "nimbu sharbat",
+        "lemon juice sweet"
+      ],
+      "category": "drinks",
+      "diet": "vegan",
+      "nutrientsPer100g": {
+        "kcal": 34.8,
+        "protein": 0.2,
+        "carbs": 8.5,
+        "fat": 0.0,
+        "fibre": 0.2
+      },
+      "allergens": [],
+      "tags": [
+        "cooling",
+        "vitamin_c",
+        "hydration"
+      ],
+      "portions": [
+        {
+          "label": "1 glass",
+          "grams": 200.0,
+          "isDefault": true
+        }
+      ]
+    },
+    {
+      "key": "sugarcane_juice",
+      "nameEn": "Fresh Sugarcane Juice (Ganne Ka Ras)",
+      "nameHi": "गन्ने का रस",
+      "nameKn": "ಕಬ್ಬಿನ ಹಾಲು",
+      "aliases": [
+        "karumbu saru",
+        "kabbu haalu",
+        "cane juice"
+      ],
+      "category": "drinks",
+      "diet": "vegan",
+      "nutrientsPer100g": {
+        "kcal": 74.1,
+        "protein": 0.3,
+        "carbs": 18.0,
+        "fat": 0.1,
+        "fibre": 0.0
+      },
+      "allergens": [],
+      "tags": [
+        "cooling",
+        "energy_dense",
+        "seasonal"
+      ],
+      "portions": [
+        {
+          "label": "1 glass",
+          "grams": 200.0,
+          "isDefault": true
+        }
+      ]
+    },
+    {
+      "key": "sattu_sharbat_namkeen",
+      "nameEn": "Sattu Drink (Salted Roasted Gram Drink)",
+      "nameHi": "सत्तू का नमकीन शरबत",
+      "nameKn": "ಸತ್ತು ಪಾನೀಯ",
+      "aliases": [
+        "sattu ghol",
+        "bihari sattu drink",
+        "roasted chickpea drink"
+      ],
+      "category": "drinks",
+      "diet": "vegan",
+      "nutrientsPer100g": {
+        "kcal": 76.8,
+        "protein": 4.5,
+        "carbs": 12.0,
+        "fat": 1.2,
+        "fibre": 3.2
+      },
+      "allergens": [],
+      "tags": [
+        "cooling",
+        "high_protein",
+        "gut_friendly"
+      ],
+      "portions": [
+        {
+          "label": "1 tall glass",
+          "grams": 250.0,
+          "isDefault": true
+        }
+      ]
+    },
+    {
+      "key": "atta_whole_wheat",
+      "nameEn": "Whole Wheat Atta (Flour, Raw)",
+      "nameHi": "गेहूं का आटा",
+      "nameKn": "ಗೋಧಿ ಹಿಟ್ಟು",
+      "aliases": [
+        "chakki atta",
+        "wheat flour",
+        "gehun atta"
+      ],
+      "category": "staples",
+      "diet": "vegan",
+      "nutrientsPer100g": {
+        "kcal": 343.3,
+        "protein": 12.0,
+        "carbs": 70.0,
+        "fat": 1.7,
+        "fibre": 11.5
+      },
+      "allergens": [
+        "gluten"
+      ],
+      "tags": [
+        "high_fibre",
+        "staple"
+      ],
+      "portions": [
+        {
+          "label": "1 katori (flour)",
+          "grams": 100.0,
+          "isDefault": true
+        }
+      ]
+    },
+    {
+      "key": "rolled_oats_raw",
+      "nameEn": "Rolled Oats (Raw)",
+      "nameHi": "ओट्स",
+      "nameKn": "ಓಟ್ಸ್",
+      "aliases": [
+        "oatmeal",
+        "porridge oats"
+      ],
+      "category": "staples",
+      "diet": "vegan",
+      "nutrientsPer100g": {
+        "kcal": 376.5,
+        "protein": 13.5,
+        "carbs": 66.0,
+        "fat": 6.5,
+        "fibre": 10.0
+      },
+      "allergens": [],
+      "tags": [
+        "heart_friendly",
+        "high_fibre",
+        "staple"
+      ],
+      "portions": [
+        {
+          "label": "1/2 cup (dry)",
+          "grams": 40.0,
+          "isDefault": true
+        }
+      ]
+    },
+    {
+      "key": "sooji_semolina_raw",
+      "nameEn": "Sooji / Rava (Semolina, Raw)",
+      "nameHi": "सूजी / रवा",
+      "nameKn": "ರವೆ",
+      "aliases": [
+        "semolina",
+        "rava",
+        "bombay rava"
+      ],
+      "category": "staples",
+      "diet": "vegan",
+      "nutrientsPer100g": {
+        "kcal": 343.0,
+        "protein": 11.5,
+        "carbs": 72.0,
+        "fat": 1.0,
+        "fibre": 3.5
+      },
+      "allergens": [
+        "gluten"
+      ],
+      "tags": [
+        "staple"
+      ],
+      "portions": [
+        {
+          "label": "1/2 cup",
+          "grams": 80.0,
+          "isDefault": true
+        }
+      ]
+    },
+    {
+      "key": "poha_thick_dry",
+      "nameEn": "Flattened Rice (Dry Poha / Aval)",
+      "nameHi": "सूखा पोहा",
+      "nameKn": "ಅವಲಕ್ಕಿ (ಒಣ)",
+      "aliases": [
+        "aval",
+        "chivda poha",
+        "beaten rice dry"
+      ],
+      "category": "staples",
+      "diet": "vegan",
+      "nutrientsPer100g": {
+        "kcal": 345.0,
+        "protein": 7.0,
+        "carbs": 77.0,
+        "fat": 1.0,
+        "fibre": 3.0
+      },
+      "allergens": [],
+      "tags": [
+        "iron_rich",
+        "easy_digest",
+        "staple"
+      ],
+      "portions": [
+        {
+          "label": "1 cup dry",
+          "grams": 60.0,
+          "isDefault": true
+        }
+      ]
+    },
+    {
+      "key": "sabudana_tapioca",
+      "nameEn": "Sabudana (Tapioca Pearls, Dry)",
+      "nameHi": "साबूदाना",
+      "nameKn": "ಸಬ್ಬಕ್ಕಿ",
+      "aliases": [
+        "sabbakki",
+        "javvarisi",
+        "sago"
+      ],
+      "category": "staples",
+      "diet": "vegan",
+      "nutrientsPer100g": {
+        "kcal": 354.6,
+        "protein": 0.2,
+        "carbs": 88.0,
+        "fat": 0.2,
+        "fibre": 0.5
+      },
+      "allergens": [],
+      "tags": [
+        "vrat_fasting",
+        "high_carb",
+        "staple"
+      ],
+      "portions": [
+        {
+          "label": "1/2 cup dry",
+          "grams": 75.0,
+          "isDefault": true
+        }
+      ]
+    },
+    {
+      "key": "chana_dal_raw",
+      "nameEn": "Chana Dal (Split Bengal Gram, Raw)",
+      "nameHi": "चना दाल",
+      "nameKn": "ಕಡಲೆ ಬೇಳೆ",
+      "aliases": [
+        "bengal gram dal",
+        "kadale bele"
+      ],
+      "category": "staples",
+      "diet": "vegan",
+      "nutrientsPer100g": {
+        "kcal": 365.0,
+        "protein": 20.0,
+        "carbs": 60.0,
+        "fat": 5.0,
+        "fibre": 15.0
+      },
+      "allergens": [],
+      "tags": [
+        "high_protein",
+        "high_fibre",
+        "staple"
+      ],
+      "portions": [
+        {
+          "label": "1/2 cup dry",
+          "grams": 90.0,
+          "isDefault": true
+        }
+      ]
+    },
+    {
+      "key": "toor_dal_raw",
+      "nameEn": "Toor Dal (Split Pigeon Pea, Raw)",
+      "nameHi": "अरहर / तूर दाल",
+      "nameKn": "ತೊಗರಿ ಬೇಳೆ",
+      "aliases": [
+        "arhar dal",
+        "thogari bele",
+        "sambar dal"
+      ],
+      "category": "staples",
+      "diet": "vegan",
+      "nutrientsPer100g": {
+        "kcal": 349.5,
+        "protein": 22.0,
+        "carbs": 62.0,
+        "fat": 1.5,
+        "fibre": 15.0
+      },
+      "allergens": [],
+      "tags": [
+        "high_protein",
+        "high_fibre",
+        "staple"
+      ],
+      "portions": [
+        {
+          "label": "1/2 cup dry",
+          "grams": 90.0,
+          "isDefault": true
+        }
+      ]
+    },
+    {
+      "key": "urad_dal_split_raw",
+      "nameEn": "Urad Dal (Split Black Gram, Raw)",
+      "nameHi": "उड़द दाल",
+      "nameKn": "ಉದ್ದಿನ ಬೇಳೆ",
+      "aliases": [
+        "uddina bele",
+        "white urad dal",
+        "idli dal"
+      ],
+      "category": "staples",
+      "diet": "vegan",
+      "nutrientsPer100g": {
+        "kcal": 344.6,
+        "protein": 24.0,
+        "carbs": 59.0,
+        "fat": 1.4,
+        "fibre": 10.0
+      },
+      "allergens": [],
+      "tags": [
+        "high_protein",
+        "staple"
+      ],
+      "portions": [
+        {
+          "label": "1/2 cup dry",
+          "grams": 90.0,
+          "isDefault": true
+        }
+      ]
+    },
+    {
+      "key": "moong_dal_split_raw",
+      "nameEn": "Moong Dal (Yellow Split, Raw)",
+      "nameHi": "धुली मूंग दाल",
+      "nameKn": "ಹೆಸರು ಬೇಳೆ",
+      "aliases": [
+        "hesaru bele",
+        "yellow lentil raw"
+      ],
+      "category": "staples",
+      "diet": "vegan",
+      "nutrientsPer100g": {
+        "kcal": 346.8,
+        "protein": 24.0,
+        "carbs": 60.0,
+        "fat": 1.2,
+        "fibre": 16.0
+      },
+      "allergens": [],
+      "tags": [
+        "high_protein",
+        "high_fibre",
+        "staple"
+      ],
+      "portions": [
+        {
+          "label": "1/2 cup dry",
+          "grams": 90.0,
+          "isDefault": true
+        }
+      ]
+    },
+    {
+      "key": "jaggery_gur",
+      "nameEn": "Organic Jaggery (Gur)",
+      "nameHi": "गुड़",
+      "nameKn": "ಬೆಲ್ಲ",
+      "aliases": [
+        "gur",
+        "bella",
+        "vellam",
+        "unrefined cane sugar"
+      ],
+      "category": "staples",
+      "diet": "vegan",
+      "nutrientsPer100g": {
+        "kcal": 342.5,
+        "protein": 0.4,
+        "carbs": 85.0,
+        "fat": 0.1,
+        "fibre": 0.0
+      },
+      "allergens": [],
+      "tags": [
+        "iron_rich",
+        "sweetener",
+        "traditional"
+      ],
+      "portions": [
+        {
+          "label": "1 piece / tbsp",
+          "grams": 20.0,
+          "isDefault": true
+        }
+      ]
+    }
+  ]
+}
