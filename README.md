@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # [APP NAME] — Phase 1
 
 Personalized diet planner (Flutter, Android + iOS). This drop covers **Phase 1**:
@@ -63,3 +64,6 @@ test/domain/   target calculator + profile JSON tests
   are also slightly darker than the spec values to meet WCAG AA.
 - Fonts load through `google_fonts` at runtime (bundle them in Phase 7 for fully offline first launch).
 - Units are metric only for now (unit setting comes in Phase 7).
+=======
+# dietapp
+>>>>>>> 6e6f6181a0e4ff9a05bfb4401ea5c0e4f0814148
